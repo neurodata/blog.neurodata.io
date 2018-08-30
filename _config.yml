@@ -29,6 +29,20 @@ plugins:
   - jekyll-feed
 google_analytics: UA-69121088-1
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
+
+repository  : "neurodata/blog.neurodata.io"
+comments:
+  provider  : "staticman_v2"
+staticman:
+  branch    : "master"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
