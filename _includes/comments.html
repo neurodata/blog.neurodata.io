@@ -34,7 +34,7 @@
 
 <p>
     <h3>Post a comment:</h3>
-    <form method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
+    <form id="new_comment" method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
         <input name="options[redirect]" type="hidden" value="{{ page.url | absolute_url }}">
         <input name="options[slug]" type="hidden" value="{{ page.slug }}">
         <div>
@@ -53,8 +53,7 @@
         <div>
             <legend><em>Comments will appear after moderation.</em></legend>
 
-            <button class="g-recaptcha" data-sitekey="6LcBam0UAAAAAF9QcO8pLMJgjs-OX-g5fPDTTomf" data-callback="YourOnSubmitFn"
-                type="submit">
+            <button class="g-recaptcha" data-sitekey="6LcBam0UAAAAAF9QcO8pLMJgjs-OX-g5fPDTTomf" data-callback="onSubmit">
                 Submit
             </button>
         </div>
