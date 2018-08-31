@@ -3,6 +3,7 @@ layout: post
 title:  "How to Choose Projects"
 date:   2018-08-31 14:27:57 -0400
 categories: misc
+author: Joshua Vogelstein
 ---
 
 In many areas of life we often have to choose a "project". This comes up in academia all the time in grant writing.   A natural question therefore is how choose, that is, by what metric shall one choose a project.  Here, I argue that the only two dimensions worth considering are: feasibility and significance.

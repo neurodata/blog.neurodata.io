@@ -3,6 +3,7 @@ layout: post
 title:  "Connectome Coding"
 date:   2018-08-29 14:27:57 -0400
 categories: [brains, bits]
+author: Joshua Vogelstein
 ---
 
 The following is a draft/summary of an article we are writing.  We'd love any feedback that you have, especially critical.
