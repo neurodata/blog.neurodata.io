@@ -6,7 +6,7 @@ categories: misc
 author: Joshua Vogelstein
 ---
 
-Brett Mensh, of [Optimize Science](http://optimizescience.com/) taught me this. However, this note utterly fails to do him or his teaching justice.  Rather, this is meant to be a draft document, in search of feedback, to further improve.
+Brett Mensh, of [Optimize Science](http://optimizescience.com/) taught me essentially all the good parts of what follows, so all praise is appropriately directed at him. However, this note  fails to do him or his teaching justice.  Rather, it is me jotting down my notes on the topic for my students, to be iterated and further improved upon in public.
 
 In many areas of life we often have to choose a "project". This comes up in academia all the time in grant writing.   A natural question therefore is how choose, that is, by what metric shall one choose a project.  Here, I argue that the only two dimensions worth considering are: feasibility and significance.
 
