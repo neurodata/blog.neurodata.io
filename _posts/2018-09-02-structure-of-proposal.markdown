@@ -21,6 +21,7 @@ The title is typically bounded to be below 100 characters.  My favorite explanat
 ### One page summary
 
 2. *Opportunity*: What has changed recently that is super exciting/inspiring. Remember, the reviewers are the people typically that have made those changes, so be sure to make them seem super awesome.  Here you want to narrow in on the gap, as illustrated in the figure below taken from [here](https://journals.plos.org/ploscompbiol/article/figure?id=10.1371/journal.pcbi.1005619.g001).
+7. *Significance*: Who will this impact (and potentially how many people, if your audience does not know that already), and how will it change their lives for the better?
 3. *Gap*: But, something is missing that would enable us to more fully utilize this opportunity, what is it?
 4. *Challenge*: What is hard about filling this gap, which explains why others have not yet done so, even though they have done lots of great things.
 5. *Action*: Summary of what you are going to do. Make sure in each "aim" it is clear what you are "delivering".  For example, "investigate" is not a great verb for an aim, "resolve", "discover", "decipher", "reveal", etc., are all better words typically.
@@ -28,7 +29,6 @@ The title is typically bounded to be below 100 characters.  My favorite explanat
   b. Aim 2:
   c. Aim 3:
 6. *Feasibility*:  Why you are able to do it, given your intellectual, personal, computational, and institutional resources and constraints.
-7. *Significance*: Who will this impact (and potentially how many people, if your audience does not know that already), and how will it change their lives for the better?
 
 
 Note that if you are making slides, each of the above points can be a slide.  And then, don't forget an acknowledgements slide.
