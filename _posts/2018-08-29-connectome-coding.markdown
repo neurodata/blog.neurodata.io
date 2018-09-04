@@ -37,6 +37,7 @@ To explain that, we take a step back, and provide our conceptual model of brains
 <!-- ![]("/assets/brain-body-world") -->
 
 ![](https://neurodata.io/talks/images/brain-body-world.png)
+*Image Credits: [Julia Kuhl](http://somedonkey.com/)*
 
 <!-- <img src="brain-body-world" STYLE="HEIGHT:95px;"/> -->
 
