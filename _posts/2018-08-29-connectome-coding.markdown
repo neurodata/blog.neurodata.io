@@ -2,7 +2,7 @@
 layout: post
 title:  "Connectome Coding"
 date:   2018-08-29 14:27:57 -0400
-categories: [brains, bits]
+tags: [brains, bits]
 author: Joshua Vogelstein
 ---
 
@@ -11,7 +11,7 @@ The following are notes based first on an invited talk I gave at [Baylor](http:/
 ---------------
 
 
-# what is connectome coding?
+# What is connectome coding?
 
 To define connectome coding, we define both `code` and `connectome`.  Let's start with `code`:
 
@@ -33,7 +33,11 @@ OK, now we have `code` and `connectome` definitions. So a connectome code is a c
 
 To explain that, we take a step back, and provide our conceptual model of brains, bodies, and worlds (see below image). Worlds contain bodies which contain brains. And brains are composed both both structure (which we think of as basically "static") and activity (which we think of as basically "dynamic").  The brain's job is to direct the body's behavior so that the organism wins the evolutionary game in its particular niche of the world (its environment), and propagates its genes to the next generation.  The structure of the brain, its **connectome**, is determined jointly by developmental programs (encoded in the genome), and activity dependent plasticity (resulting from ongoing brain activity, which in turn is dependent on the body and world).
 
-<!-- ![](../_images/brain-body-world) -->
+![](../../../_site/assets/brain-body-world)
+
+![]("/assets/brain-body-world")
+
+![](https://neurodata.io/talks/images/brain-body-world.png)
 
 <!-- <img src="brain-body-world" STYLE="HEIGHT:95px;"/> -->
 
