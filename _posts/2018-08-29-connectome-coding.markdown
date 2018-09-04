@@ -33,16 +33,15 @@ OK, now we have `code` and `connectome` definitions. So a connectome code is a c
 
 To explain that, we take a step back, and provide our general philosophy on brains, bodies, and worlds (see below image).
 Worlds contain bodies which contain brains.
-And brains are composed both both structure (which we think of as basically "static") and activity (which we think of as basically "dynamic").  
-We call all aspects of brain structure the *connectome*.
-The brain's job is to direct the body's behavior so that the organism wins the evolutionary game in its particular niche of the world (its environment), and propagates its genes to the next generation.  
+And brains are composed both both structure (which we think of as basically "static") and activity (which we think of as basically "dynamic").   We call all aspects of brain structure the *connectome*. The brain's job is to direct the body's behavior so that the organism wins the evolutionary game in its particular niche of the world (its environment), and propagates its genes to the next generation.  
 
-![](../_images/brain-body-world.png)
+<!-- ![](../_images/brain-body-world) -->
+
+<!-- <img src="brain-body-world" STYLE="HEIGHT:95px;"/> -->
 
 Let's model each of those things as random variables: $$E$$ is the environment, $$B$$ is behavior, $$A$$ is activity, $$C$$ is connectome, and $$D$$ is development, as specified by the genome. Based on this, we can now define connectome coding as a conditional distribution, where either something is conditioned on connectomes, or connectomes are conditioned on something else.
 
-First, consider $$P[C \vert D]$$, which specifies the probability of an individual having a specific connectome, conditioned on her genome.  In other words, in this model, the genome must *encode* the probabilistic rules of connectivity, at some resolution, to ensure that the connectome can function sufficiently well in the expected environmental "niche" that the organism is in.  Second, consider $$P[A,B,E \vert C]$$, which specifies the probability  of the world state, a body position, and its brain's activity conditioned on a particular connectome.  One can also "marginalize" out $$E$$, $$B$$, and/or $$A$$ to get $$P[A \vert C]$$, or $$P[B \vert C]$$, or $$P[A,B \vert C]$$, etc.  
-Once one has both the above conditional distributions, it is natural to inquire about the full joint, $$P[A, B, C, D, E]$$.  
+First, consider $$P[C \vert D]$$, which specifies the probability of an individual having a specific connectome, conditioned on her genome.  In other words, in this model, the genome must *encode* the probabilistic rules of connectivity, at some resolution, to ensure that the connectome can function sufficiently well in the expected environmental "niche" that the organism is in.  Second, consider $$P[A,B,E \vert C]$$, which specifies the probability  of the world state, a body position, and its brain's activity conditioned on a particular connectome.  One can also "marginalize" out $$E$$, $$B$$, and/or $$A$$ to get $$P[A \vert C]$$, or $$P[B \vert C]$$, or $$P[A,B \vert C]$$, etc.  Once one has both the above conditional distributions, it is natural to inquire about the full joint, $$P[A, B, C, D, E]$$.  
 
 Although one can write all of the above conditioned regardless of the causal graph, there is an implicit causal graph.  Specifically, $$D \Leftarrow C \Leftrightarrow A \Leftrightarrow B \Leftrightarrow E$$.  What are the implications of this causal dependence structure?  For the genome to encode the probabilistic rules of behavior, to facilitate the organism winning the evolutionary game, it **must** go through the connectome.  A natural question therefore is:
 
