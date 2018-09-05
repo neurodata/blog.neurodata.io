@@ -20,7 +20,7 @@ To define connectome coding, we define both `code` and `connectome`.  Let's star
 A code is a system of (potentially stochastic) rules that translate from one representation of information into another.  
 `
 
-In the language of statistics, a code is a conditional distribution, of a pair of random variables, $$X$$ and $$Y$$, $$P[Y \vert X]$$. This conditional distribution tells us the probability that given random variable $X$ takes some value from it set of possible values $$x \in \mathcal{X}$$,  that $$Y$$ takes any of its possible values, $$y \in \mathcal{Y}$$.  In other words, $$P[Y \vert X]$$ is the probabilistic rule converting from $$x$$ to $$y$$.
+In the language of statistics, a code is a conditional distribution, of a pair of random variables, $$X$$ and $$Y$$, $$P[Y \vert X]$$. This conditional distribution tells us the probability that given random variable $$X$$ takes some value from it set of possible values $$x \in \mathcal{X}$$,  that $$Y$$ takes any of its possible values, $$y \in \mathcal{Y}$$.  In other words, $$P[Y \vert X]$$ is the probabilistic rule converting from $$x$$ to $$y$$.
 
 
 
