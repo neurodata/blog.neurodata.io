@@ -2,7 +2,7 @@
 layout: post
 title:  "Structure of a 1-Page Summary of Proposal"
 date:   2018-08-31 14:27:57 -0400
-categories: misc
+tags: misc
 author: Joshua Vogelstein
 ---
 

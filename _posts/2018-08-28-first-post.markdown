@@ -2,7 +2,7 @@
 layout: post
 title:  "First Post!"
 date:   2018-08-28 14:27:57 -0400
-categories: misc
+tags: misc
 author: Joshua Vogelstein
 ---
 

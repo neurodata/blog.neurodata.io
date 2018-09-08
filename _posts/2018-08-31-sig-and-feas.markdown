@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Choose Projects"
 date:   2018-08-31 14:27:57 -0400
-categories: misc
+tags: misc
 author: Joshua Vogelstein
 ---
 
