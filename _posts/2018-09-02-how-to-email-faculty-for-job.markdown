@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Email Faculty for a Propective Job"
 date:   2018-09-02 14:27:57 -0400
-categories: misc
+tags: misc
 author: Joshua Vogelstein
 ---
 
