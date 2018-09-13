@@ -27,11 +27,7 @@ In other words, no method can outperform another method on all possible problems
 
 The other result is the [`Arbitrary Slow Convergence Theorem`](https://link.springer.com/article/10.1007/BF00534199), which states:
 
-\begin{displayquote}
-One of the main results of this note is that for every sequence $$f_n$$, and for every positive number sequence an satisfying $$lim a_n=0$$, there exists an $$f$$ such that
-$$E(\int |f_n(x)−f(x)|^p dx)>a_n$$
-infinitely often.
-\end{displayquote}
+  One of the main results of this note is that for every sequence $$f_n$$, and for every positive number sequence an satisfying $$lim a_n=0$$, there exists an $$f$$ such that $$E(\int |f_n(x)−f(x)|^p dx)>a_n$$ infinitely often.
 
 
 
