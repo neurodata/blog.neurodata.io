@@ -27,11 +27,12 @@ In other words, no method can outperform another method on all possible problems
 
 The other result is the [`Arbitrary Slow Convergence Theorem`](https://link.springer.com/article/10.1007/BF00534199), which states:
 
-`
+\begin{displayquote}
 One of the main results of this note is that for every sequence $$f_n$$, and for every positive number sequence an satisfying $$lim a_n=0$$, there exists an $$f$$ such that
-$$E(\integral |f_n(x)−f(x)|^p dx)>a_n$$
+$$E(\int |f_n(x)−f(x)|^p dx)>a_n$$
 infinitely often.
-`
+\end{displayquote}
+
 
 
 In words, if you give me a method to estimate something, i'll give you a distribution such that your estimate will be arbitrarily bad.
@@ -45,4 +46,4 @@ The reason for this is quite practical.  As a practitioner, I am aware that diff
 
 Given all that, I feel compelled to point out that the space of all functions, or all bounded functions, or all distributions, is quite large.  Therefore, a comprehensive account is typically intractable. Rather, to the extent possible, a manuscript "ought" to explain the general conditions under which the authors expect it to outperform the standard competitors.  Without this, the user will not understand when to use the method.  Perhaps more importantly, without this, the authors of the method might not understand the method particularly well!
 
-Moreover, rather than merely identifying some settings in which the proposed method performs relatively poorly, it is important to explain why that is the case.  While theoretical explanations can be the most concrete and clear, they are often out of scope. Thus, "just so" explanations often suffice. 
+Moreover, rather than merely identifying some settings in which the proposed method performs relatively poorly, it is important to explain why that is the case.  While theoretical explanations can be the most concrete and clear, they are often out of scope. Thus, "just so" explanations often suffice.
