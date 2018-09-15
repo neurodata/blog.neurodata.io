@@ -1,0 +1,45 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+* {
+    box-sizing: border-box;
+}
+
+.site-header{
+    background: #99B4C6;
+    color: #fcfbfd;
+}
+
+.site-title, .site-title:visited{
+    color: #fcfbfd;
+}
+
+.site-nav .page-link {
+    color: #fcfbfd;
+}
+
+.tags{
+    background: #dfd6c2;
+    padding: .5em;
+    margin: .5em;
+    border-radius: 1em;
+    height: fit-content;
+}
+
+@media only screen and (min-width: 600px){
+    .tags{
+        order: 2;
+        flex-grow: 1;
+    }
+    .home{
+        order: 1;
+        flex-grow: 2;
+    }
+
+    main.page-content .wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+}
