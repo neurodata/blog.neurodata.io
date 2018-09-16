@@ -2,7 +2,10 @@
 layout: default
 ---
 
-{%- include tags_categories.html -%}
+<div class="tags">
+  <h2>Tags:</h2>
+  {{site | tag_cloud}}
+</div>
 
 <div class="home">
   {%- if page.title -%}
