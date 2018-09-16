@@ -16,7 +16,7 @@ layout: default
       {% if page.tags.size > 0 %}
         <br>
         Tag{% if page.tags.size > 1 %}s{% endif %}:
-        {{ page.tags | sort | join: ", " }}
+        {{page | tags}}
       {% endif %}
     </p>
 
