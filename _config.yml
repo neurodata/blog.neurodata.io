@@ -16,7 +16,7 @@
 title: NeuroData Blog
 email: blog@neurodata.io
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the blog for NeuroData.
+  NeuroData: enabling data-driven neuroscience
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.neurodata.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: neuro_data
