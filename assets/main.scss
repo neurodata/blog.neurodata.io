@@ -12,6 +12,10 @@
     color: #fcfbfd;
 }
 
+.site-nav {
+    background: #4a484c;
+}
+
 .site-header .wrapper .site-title div {
     display: flex;
 }
@@ -39,7 +43,7 @@
     border-radius: 1em;
     height: fit-content;
     text-align: center;
-    background:  #54278f;
+    background: #54278f;
 }
 
 @supports not (height: fit-content) {
@@ -73,8 +77,14 @@
     color: #9e9ac8;
 }
 
-body > main > .wrapper > div {
+body>main>.wrapper>div {
     padding-top: .5em;
+}
+
+@media screen and (max-width: 600px) {
+    .site-nav .menu-icon>svg {
+        fill: #fcfbfd;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -83,7 +93,7 @@ body > main > .wrapper > div {
         flex-grow: 1;
     }
 
-    body > main > .wrapper > div {
+    body>main>.wrapper>div {
         order: 1;
         flex-grow: 2;
     }

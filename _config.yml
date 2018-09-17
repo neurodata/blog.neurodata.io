@@ -22,6 +22,7 @@ url: "https://blog.neurodata.io" # the base hostname & protocol for your site, e
 twitter_username: neuro_data
 github_username:  neurodata
 facebook_username: neurodata.io
+rss: rss
 
 # Build settings
 markdown: kramdown
