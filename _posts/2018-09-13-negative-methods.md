@@ -2,7 +2,7 @@
 layout: post
 title:  "The Necessity of Negative Results in Methods Papers"
 date:   2018-09-13 14:27:57 -0400
-tags: misc
+tags: writing
 author: Joshua Vogelstein
 ---
 

@@ -1,0 +1,105 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+* {
+    box-sizing: border-box;
+}
+
+.site-header {
+    background: #4a484c;
+    color: #fcfbfd;
+}
+
+.site-nav {
+    background: #4a484c;
+}
+
+.site-header .wrapper .site-title div {
+    display: flex;
+}
+
+.site-header .wrapper .site-title div span {
+    flex: auto;
+}
+
+.site-header .wrapper .site-title div span:last-of-type {
+    margin-left: .3em;
+}
+
+.site-title,
+.site-title:visited {
+    color: #fcfbfd;
+}
+
+.site-nav .page-link {
+    color: #fcfbfd;
+}
+
+#tag-cloud {
+    padding: .5em;
+    margin-left: .5em;
+    border-radius: 1em;
+    height: fit-content;
+    text-align: center;
+    background: #54278f;
+}
+
+@supports not (height: fit-content) {
+    .tag-cloud {
+        display: table;
+    }
+}
+
+#tag-cloud .set-5 {
+    font-size: 180%;
+    color: #fcfbfd;
+}
+
+#tag-cloud .set-4 {
+    font-size: 160%;
+    color: #efedf5;
+}
+
+#tag-cloud .set-3 {
+    font-size: 140%;
+    color: #dadaeb;
+}
+
+#tag-cloud .set-2 {
+    font-size: 120%;
+    color: #bcbddc;
+}
+
+#tag-cloud .set-1 {
+    font-size: 100%;
+    color: #9e9ac8;
+}
+
+body>main>.wrapper>div {
+    padding-top: .5em;
+}
+
+@media screen and (max-width: 600px) {
+    .site-nav .menu-icon>svg {
+        fill: #fcfbfd;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #tag-cloud {
+        order: 2;
+        flex-grow: 1;
+    }
+
+    body>main>.wrapper>div {
+        order: 1;
+        flex-grow: 2;
+    }
+
+    main.page-content .wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+}

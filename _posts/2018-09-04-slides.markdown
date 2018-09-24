@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Some Notes of Making Slides"
+title:  "Slides Checklist"
 date:   2018-09-04 14:27:57 -0400
-tags: misc
+tags: [writing, checklist]
 author: Joshua Vogelstein
 ---
 

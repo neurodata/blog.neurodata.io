@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Structure of a 1-Page Summary of Proposal"
+title:  "1-Page Summary of Proposal Checklist"
 date:   2018-08-31 14:27:57 -0400
-tags: misc
+tags: [writing,checklist]
 author: Joshua Vogelstein
 ---
 
