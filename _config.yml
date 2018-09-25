@@ -48,6 +48,8 @@ staticman:
 tag_page_layout: tag_page
 tag_page_dir: tag
 
+show_excerpts: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
