@@ -14,4 +14,4 @@ In many areas of life we often have to choose a "project". This comes up in acad
 
 *Significance*: Significance characterizes how important, for the world, will successful completion of the project be. The equation for this is "# of people impacted x impact per person".  There is a wonderful little summary of this concept available [here](https://www.patreon.com/posts/21037081), which includes the following graphic:
 
-![significance](https://c10.patreonusercontent.com/3/eyJ3IjoxMjQwfQ%3D%3D/patreon-media/p/post/21037081/23755aaa60b84fa09ac5702e7fffd341/1?token-time=1536883200&token-hash=k849fBGg7HpBm87Z5OPQHnRaj98COZ2zlVR8vPdJjGI%3D).
+![significance](/assets/post_images/a_graph_of_things.png).
