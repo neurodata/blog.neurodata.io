@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Guidance on Emailing Collaborators"
-date:   2018-09-22 14:27:57 -0400
+date:   2018-09-21 14:27:57 -0400
 tags: [writing, checklist]
 author: Joshua Vogelstein
 ---

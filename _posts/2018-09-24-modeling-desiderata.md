@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Estimator Desiderata"
-date:   2018-09-23 14:27:57 -0400
+date:   2018-09-24 14:27:57 -0400
 tags: bits
 author: Joshua Vogelstein
 ---
@@ -13,7 +13,7 @@ When designing an estimator (or a learner, as machine learning people say), ther
 
 2. **Uncertainty**:  Point estimates (for example, the maximum likelihood estimate), are often of primary concern, but uncertainty intervals around said point estimates are often required making effectively using the estimates.  Point estimates of confidence intervals, and densities, are also technically point estimates.  However, such point estimates fundamentally incorporate a notion of uncertainty, so they satisfy this desiderata.  We note, however, that while some estimators have uncertainty estimates with theoretical guarantees, those guarantees depend strongly on the model assumptions.
 
-4. **Consistency**:  We prefer that, under the model assumptions, for any finite sample size, that the expected estimate is equal to the assumed "truth", i.e., is *unbiased*.  If this unbiased property holds asymptotically, the estimator is said to be  *consistent*.  This property is graded, meaning estimators can yield estimates with any non-negative bias, and we desire that it is small.   
+4. **Consistency**:  We prefer that, under the model assumptions, for any finite sample size, that the expected estimate is equal to the assumed "truth", i.e., is *unbiased*.  If this unbiased property holds asymptotically, the estimator is said to be  *consistent*.  This property is graded, meaning estimators can yield estimates with any bias, and we desire that it is small.   
 
 
 6. **Efficiency**:  Assuming that the estimator converges to *something*, all else being equal, we desire that it converges "quickly".  The typical metric of statistical efficiency is the variance (for a scalar values estimate), or the Fisher information more generally.  Ideally the estimator is *efficient*, meaning, under the model assumptions, it achieves the minimal possible variance.  To a first order approximation, we often simply indicate whether the convergence rate is polynomial, polylog, or exponential.  Note that efficiency can computed with respect to the sample size, as well as the dimensionality of the data (and both the "intrinsic" and "extrinsic" dimensionality). Note that there are many difference notions of [convergence of random variables](https://en.wikipedia.org/wiki/Convergence_of_random_variables), and the estimators are indeed random variables (because their inputs are random variables). Because perfect efficiency is available only under the simplest models, *relative efficiency* is often more important, in practice.  Probably almost correct learning theory, as introduced in [this book](http://a.co/d/bYJlTWA) is largely focused on finding estimators that efficiently (i.e., using a small number of samples) obtain low errors with high probability.

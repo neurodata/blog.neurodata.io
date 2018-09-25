@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linear Dimensionality Reduction"
-date:   2018-09-24 14:27:57 -0400
+date:   2018-09-25 14:27:57 -0400
 tags: bits
 author: Joshua Vogelstein
 ---
