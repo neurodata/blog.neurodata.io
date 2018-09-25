@@ -41,15 +41,12 @@
     padding: .5em;
     margin-left: .5em;
     border-radius: 1em;
-    height: fit-content;
     text-align: center;
     background: #54278f;
 }
 
-@supports not (height: fit-content) {
-    .tag-cloud {
-        display: table;
-    }
+#tag-cloud a+a {
+    margin-left: 5px;
 }
 
 #tag-cloud .set-5 {
@@ -91,6 +88,14 @@ body>main>.wrapper>div {
     #tag-cloud {
         order: 2;
         flex-grow: 1;
+        display: inline-table;
+    }
+
+    @supports (height: fit-content) {
+        #tag-cloud {
+            height: fit-content;
+            display: block;
+        }
     }
 
     body>main>.wrapper>div {
