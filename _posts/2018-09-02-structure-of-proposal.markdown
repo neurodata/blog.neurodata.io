@@ -33,4 +33,4 @@ The title is typically bounded to be below 100 characters.  My favorite explanat
 
 Note that if you are making slides, each of the above points can be a slide.  And then, don't forget an acknowledgements slide.
 
-![](https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=info:doi/10.1371/journal.pcbi.1005619.g001)
+![Summary of a paper’s structural elements at three spatial scales: Across sections, across paragraphs, and within paragraphs.](/assets/post_images/paper_scales.png)
