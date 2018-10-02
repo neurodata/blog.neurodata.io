@@ -93,7 +93,7 @@ body {
     height: 100%;
     font: 400 18px/1.5 "Gentona", "Arial", sans-serif;
     color: #222;
-    background-color: white;
+    background-color: #fcfbfd;
     -moz-osx-font-smoothing: antialiased !important;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -126,6 +126,8 @@ h4 {
     background: #4a484c;
     color: #fcfbfd;
     min-height: auto;
+    border-top: 5px solid #4a484c;
+    border-bottom: 1px solid #4a484c;
 }
 
 .site-nav {
@@ -157,13 +159,13 @@ h4 {
     padding: .5em;
     margin-left: .5em;
     text-align: center;
-    border: #54278f solid 3px;
-    background: white;
+    border: #318dde solid 3px;
+    background: #fcfbfd;
 }
 
-#tag-cloud h2{
-    color: white;
-    background: #54278f;
+#tag-cloud h2 {
+    color: #fcfbfd;
+    background: #318dde;
 }
 
 #tag-cloud a+a {
@@ -171,28 +173,28 @@ h4 {
 }
 
 #tag-cloud .set-5 {
-    font-size: 1.4rem;
-    color: #3f007d;
+    font-size: 1.2rem;
+    color: #318dde;
 }
 
 #tag-cloud .set-4 {
-    font-size: 1.2rem;
-    color: #54278f;
+    font-size: 1.1rem;
+    color: #45a1f2;
 }
 
 #tag-cloud .set-3 {
     font-size: 1rem;
-    color: #6a51a3;
+    color: #5ab6ff;
 }
 
 #tag-cloud .set-2 {
     font-size: .9rem;
-    color: #807dba;
+    color: #6ecaff;
 }
 
 #tag-cloud .set-1 {
     font-size: .8rem;
-    color: #9e9ac8;
+    color: #83dfff;
 }
 
 body>main>.wrapper>div {
