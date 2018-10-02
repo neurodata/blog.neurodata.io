@@ -156,8 +156,13 @@ h4 {
 #tag-cloud {
     padding: .5em;
     margin-left: .5em;
-    border-radius: 1em;
     text-align: center;
+    border: #54278f solid 3px;
+    background: white;
+}
+
+#tag-cloud h2{
+    color: white;
     background: #54278f;
 }
 
@@ -166,27 +171,27 @@ h4 {
 }
 
 #tag-cloud .set-5 {
-    font-size: 1.6rem;
-    color: #fcfbfd;
+    font-size: 1.4rem;
+    color: #3f007d;
 }
 
 #tag-cloud .set-4 {
-    font-size: 1.4rem;
-    color: #efedf5;
+    font-size: 1.2rem;
+    color: #54278f;
 }
 
 #tag-cloud .set-3 {
-    font-size: 1.2rem;
-    color: #dadaeb;
+    font-size: 1rem;
+    color: #6a51a3;
 }
 
 #tag-cloud .set-2 {
-    font-size: 1.1rem;
-    color: #bcbddc;
+    font-size: .9rem;
+    color: #807dba;
 }
 
 #tag-cloud .set-1 {
-    font-size: 1rem;
+    font-size: .8rem;
     color: #9e9ac8;
 }
 
@@ -205,6 +210,7 @@ body>main>.wrapper>div {
         order: 2;
         flex-grow: 1;
         display: inline-table;
+        width: 250px;
     }
 
     @supports (height: fit-content) {
