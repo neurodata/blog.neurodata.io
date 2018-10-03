@@ -156,7 +156,6 @@ h4 {
 }
 
 #tag-cloud {
-    padding: .5em;
     margin-left: .5em;
     text-align: center;
     border: #318dde solid 3px;
@@ -195,10 +194,6 @@ h4 {
 #tag-cloud .set-1 {
     font-size: .8rem;
     color: #83dfff;
-}
-
-body>main>.wrapper>div {
-    padding-top: .5em;
 }
 
 @media screen and (max-width: 600px) {
