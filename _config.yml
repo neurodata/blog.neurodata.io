@@ -39,12 +39,6 @@ defaults:
     values:
       comments: true
 
-repository  : "neurodata/blog.neurodata.io"
-comments:
-  provider  : "staticman_v2"
-staticman:
-  branch    : "master"
-
 tag_page_layout: tag_page
 tag_page_dir: tag
 
