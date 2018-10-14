@@ -26,19 +26,30 @@ Something else that is required, but is basically impossible to assess without e
 One last thing, the longer you are interested in working on our team, the better.  For example, PhD students stick around for five years, we can train you and do a whole bunch of amazing things together in that time. Postdocs can stick around for 2 years, which is nice if they already are up to speed on crucial data science skills.  Master's students are more complicated, as they have so little time and so much to learn.  Though we often take summer students, they are the most difficult to do right by.  We want them to learn and have an awesome experience, but we are a small team, and summer is not long enough to contribute, just long enough to get some basic training in.  So, summer positions are particularly selective. In any case, we hope to work with you soon, and if only for a short time now, we hope a much longer time in the future.
 
 
-OK, now we are in good shape, and we're actually looking forward to an email from you!  I try to respond to every single request I receive, but some I judge as spam (or my spam filter does), and are therefore ignored.  If you have not received a response from me, please email again!  Below is a template of an email that gets me excited to respond,  mostly probably because it caters to my ego.
+OK, now we are in good shape, and we're actually looking forward to an email from you!  I try to respond to every single request I receive, but some I judge as spam (or my spam filter does), and are therefore ignored.  If you have not received a response from me within a week, please email again (probably change the text because the first one I thought was spam)!  Below is a template of an email that gets me excited to respond,  mostly probably because it caters to my ego.
 Nonetheless, it is effective, and potentially helpful, so I thought I'd share. I've written it as if this person is finishing grad school, so make appropriate changes if you are finishing something else.
+
 
 Dear Prof. X,
 
 I have been studying [something quite relevant to your research] for the last several years, and I expect to graduate in [expected month].
 During my PhD, I became familiar with your work, specifically, the article "[some article from our group]".  
 I am particularly intrigued by this work because of [X], which is one of the things I am most excited about studying next.
-I would therefore be thrilled to do a postdoc in your group.
-For your convenience, I have attached my CV (which includes the names contact info for three potential recommenders),
-as well as my unofficial graduate school transcript.
+I would therefore be thrilled to do [X] long [Y] in your group.
+For your convenience, I have attached my CV, and the contact info for three potential recommenders.
 
 I look forward to hearing from you at your earliest convenience.
 
 Best,
 [Some Awesome Person.]
+
+
+In conclusion, a brief checkslist that may help you of what to include in your email to faculty:
+
+1. [ ] excitement about working on something specific relevant to the individual you are contacting
+2. [ ] relevant background experience
+3. [ ] desired duration and title of position
+4. [ ] up to date cv
+
+
+Good luck!
