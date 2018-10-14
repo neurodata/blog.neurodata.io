@@ -25,7 +25,7 @@ This is one page, and it matters more than everything else combined. I do it as 
 
 2. Innovation: Up to 0.5 pages, highlighting the novel technical contributions, again, with 1 sentence in **bold** to focus on the key innovation of the proposed work.
 
-3. Approach: ~9 pages, organized into an "overview" section followed by 3-4 aims.  The 2-3 page overview section describes commonalities between the aims, any data that are being used, and related things. Each aim is about 2-3 pages, and includes the following sections:
+3. Approach: ~9-12 pages (depending on the specific grant), organized into an "overview" section followed by 3-4 aims.  The 2-3 page overview section describes commonalities between the aims, any data that are being used, and related things. The overview can also include or be followed by a "general background" that applies to each of the aims. Each aim is about 2-3 pages, and includes the following sections:
     1. *Introduction*: a 1 paragraph jargon free introduction of what you will accomplish in this aim, and how.  
     2. *Justification and Feasibility* or *Preliminary Results*: Up to 1 page describing why you are particularly well suited to accomplish the goals in the allotted time given the allotted resources. 
     3. *Research Design*: ~2 paragraphs on the details of what you'll actually do.
