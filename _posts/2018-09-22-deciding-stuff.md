@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Constituents of Decisions"
+title:  "The 4 Constituents of Decisions"
 date:   2018-09-22 14:27:57 -0400
 tags: bits
 author: Joshua Vogelstein

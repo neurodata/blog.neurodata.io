@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Estimator Desiderata"
+title:  "10 Simple Rules for Designing Learning Machines"
 date:   2018-09-24 14:27:57 -0400
-tags: bits
+tags: [bits, 10]
 author: Joshua Vogelstein
 ---
 

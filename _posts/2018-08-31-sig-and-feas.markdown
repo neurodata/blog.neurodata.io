@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Dimensions of Selecting a Good Project"
+title:  "The 2 Dimensions of Selecting a Good Project"
 date:   2018-08-31 14:27:57 -0400
 tags: misc
 author: Joshua Vogelstein

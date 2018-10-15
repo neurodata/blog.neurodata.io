@@ -2,7 +2,7 @@
 layout: post
 title:  "10 Simple Rules for Writing paragraphs"
 date:   2018-10-14 14:27:57 -0400
-tags:  [writing, checklist]
+tags:  [writing, checklist, 10]
 author: Joshua Vogelstein
 ---
 

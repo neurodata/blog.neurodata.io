@@ -46,10 +46,11 @@ Best,
 
 In conclusion, a brief checkslist that may help you of what to include in your email to faculty:
 
-1. [ ] excitement about working on something specific relevant to the individual you are contacting
-2. [ ] relevant background experience
-3. [ ] desired duration and title of position
-4. [ ] up to date cv
+1. excitement about working on something specific relevant to the individual you are contacting
+2. relevant background experience
+3. desired duration and title of position
+4. up to date cv
+5. remember, the shorter the better, this is just to get your foot in the door.
 
 
 Good luck!

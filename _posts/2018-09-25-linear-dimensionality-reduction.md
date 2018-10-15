@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Linear Dimensionality Reduction"
+title:  "9 Ways of Doing Dimensionality Reduction"
 date:   2018-09-25 14:27:57 -0400
-tags: bits
+tags: [bits, 10]
 author: Joshua Vogelstein
 ---
 
@@ -26,8 +26,4 @@ JIVE - Also like CCA, in the sense that there are multiple modalities, but now t
 
 LOL - i made it up with some colleagues.  it is designed to find a low-dimensional representation for **classification tasks when dimensionality is much larger than sample size**.  We proved that, under gaussian assumptions, it works better than PCA and other linear methods for subsequent classification.
 
-Others have written/compared all the various linear methods in greater detail,
-
-one example is here: [https://stat.columbia.edu/~cunningham/pdf/CunninghamJMLR2015.pdf](https://stat.columbia.edu/~cunningham/pdf/CunninghamJMLR2015.pdf)
-
-which addresses many of the methods i discussed above, as well as some others (but misses a PLS and JIVE).
+Others have written/compared all the various linear methods in greater detail, one example is [here](https://stat.columbia.edu/~cunningham/pdf/CunninghamJMLR2015.pdf), which addresses many of the methods i discussed above, as well as some others (but misses a PLS and JIVE).

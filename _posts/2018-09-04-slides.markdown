@@ -1,21 +1,28 @@
 ---
 layout: post
-title:  "Slides Checklist"
+title:  "10 Simple Rules for Making Good Slides"
 date:   2018-09-04 14:27:57 -0400
 tags: [writing, checklist]
 author: Joshua Vogelstein
 ---
 
-My favorite book on making slides is [Slide:ology](https://www.amazon.com/slide-ology-Science-Creating-Presentations/dp/0596522347), and my favorite website on the topic is [how to give a talk](http://www.howtogiveatalk.com/).  I also like to follow the following checklist, which I find helpful. Some items are for the slidedeck, some are for each slide:
+My favorite book on making slides is [Slide:ology](https://www.amazon.com/slide-ology-Science-Creating-Presentations/dp/0596522347), and my favorite website on the topic is [how to give a talk](http://www.howtogiveatalk.com/).  I also like to follow the following checklist, which I find helpful. I realize there are only nine, maybe somebody can propose a tenth?
 
 
+### Words
 1. [Use fewer words](http://www.howtogiveatalk.com/blog/principle-1-dont-put-words-on-slides)
-    1. There are no full sentences on slides.  Slides are visual cues to remind you and audience where you are, full grammatical sentences are not necessary.
-    2. There are no more than 3 bullet points per slide.  Each slide "should" contain a single concise point, you can say more, but more words will distract.
-    3. If a slide has a title, it is an "action title", meaning that if somebody were to read merely the titles of your slides, they would understand your message.
+1. There are no full sentences on slides.  Slides are visual cues to remind you and audience where you are, full grammatical sentences are not necessary.
+2. There are no more than 3 bullet points per slide.  Each slide "should" contain a single concise point, you can say more, but more words will distract.
+3. If a slide has a title, it is an "action title", meaning that if somebody were to read merely the titles of your slides, they would understand your message.
+
+### Pictures
+
 2. [Show your data](http://www.howtogiveatalk.com/blog/principle-3-show-your-data) (remember this [all important data science video](https://www.youtube.com/watch?v=EF8GhC-T_Mo)).
-    4. No more than two slides in a row utterly lacking a visualization or graphic.  Your slides "should" be visually compelling, to support your auditorily compelling narrative.  
-    5. Every graphic on the slide is "up to code" (see [here for a figure checklist](https://github.com/neurodata/checklists/blob/7014b4c819ddafa6a25e3cdfa2de5cec4586315f/figures.md))
-    6. Remove every pixel that does not further your point (such as [irrelevant jokes](http://www.howtogiveatalk.com/blog/principle-4-dont-tell-jokes-but-dont-avoid-humor))
-3. Have 1 slide per 1 minute of talking, and plan to speak for 66%-75% of the minutes allocated to you, to help make you [finish sooner than you are done](http://www.howtogiveatalk.com/blog/principle-8-finish-when-you-are-done-preferably-sooner).
+3. No more than two slides in a row utterly lacking a visualization or graphic.  Your slides "should" be visually compelling, to support your auditorily compelling narrative.
+4. Every graphic on the slide is "up to code" (see [here for a figure checklist](https://github.com/neurodata/checklists/blob/7014b4c819ddafa6a25e3cdfa2de5cec4586315f/figures.md))
+
+### Generic 
+
+1. Remove every pixel that does not further your point (such as [irrelevant jokes](http://www.howtogiveatalk.com/blog/principle-4-dont-tell-jokes-but-dont-avoid-humor))
+5. Have 1 slide per 1 minute of talking, and plan to speak for 66%-75% of the minutes allocated to you, to help make you [finish sooner than you are done](http://www.howtogiveatalk.com/blog/principle-8-finish-when-you-are-done-preferably-sooner).
 6. Have an acknowledgements slide, thanking those who have helped, ideally with pictures to remind people that these are humans.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deciding Stuff Under Uncertainty"
+title:  "3 Additional Constituents for Decisions Under Uncertainty"
 date:   2018-09-23 14:27:57 -0400
 tags: bits
 author: Joshua Vogelstein
