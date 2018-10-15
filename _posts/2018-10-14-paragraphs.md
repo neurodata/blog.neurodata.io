@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Taboo Words/Phrases in Technical Writing"
+title:  "10 Simple Rules for Writing paragraphs"
 date:   2018-10-14 14:27:57 -0400
-tags:  writing, checklist
+tags:  [writing, checklist]
 author: Joshua Vogelstein
 ---
 
 Here is a list of tips I check for each paragraph whenever I write anything:
 
 
-1. Is each paragraph about a single concrete and coherent idea?  
+1. Each paragraph is about a single concrete and coherent idea
     1. Does the first sentence of the paragraph introduces this idea?  
     2. Do all subsequent sentences in the paragraph further clarify the first sentence?
     3. Did I use transitional words to establish logical relationship between sentences?
@@ -26,5 +26,6 @@ Here is a list of tips I check for each paragraph whenever I write anything:
     3.  When introducing a novel concept/word/equation/notation/etc., did you explain it *before* usage, rather than after (else the reader will not understand when reading it, and we don't want that)?
   
   
+See this [youtube video](https://www.youtube.com/watch?v=rZxaSMzstB8) for details.
 
-see this [youtube video](https://www.youtube.com/watch?v=rZxaSMzstB8) for details.
+I realize this is actually 12 things to check.  I'm ok with that.

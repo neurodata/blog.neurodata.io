@@ -12,7 +12,7 @@ Hypothesis testing is a procedure for evaluating the likelihood that a given dat
 Let $$X_i \sim F$$, for $$i \in [n]=\{1,\ldots,n\}$$ be a random variable, where each $$X_i$$ is sampled independently and identically according to some distribution $$F$$.  Realizations of $$X_i$$ are $$x_i \in \mathcal{X}$$.  We further assume that $$F \in \mathcal{F}$$, that is $$F$$ is a distribution that lives in a model $$\mathcal{F} = \{F : \mathcal{F}\}$$.  Moreover, we partition $$\mathcal{F}$$ into two complementary sets, $$\mathcal{F}_0$$ and $$\mathcal{F}_A$$, such that $$\mathcal{F}_0 \cup \mathcal{F}_A = \mathcal{F}$$ and $$\mathcal{F}_0 \cap \mathcal{F}_A = \emptyset$$.  Given these definitions, all  hypothesis testing can be written as:
 
 \begin{align}
-H_0: F \in \mathcal{F}_0 \qquad
+H_0: F \in \mathcal{F}_0, \qquad
 H_A: F \in \mathcal{F}_A.
 \end{align}
 
@@ -25,32 +25,32 @@ Note that a hypothesis can be either *simple* or  *composite*: according to [wik
 
 1. Simple-Null, Simple-Alternate (S/S)
 \begin{align}
-H_0: F = F_0 \qquad
+H_0: F = F_0, \qquad
 H_A: F = F_A.
 \end{align}
 
 2. Simple-Null, Composite-Alternate (S/C)
 \begin{align}
-H_0: F = F_0 \qquad
+H_0: F = F_0, \qquad
 H_A: F \in \mathcal{F}_A.
 \end{align}
 
 2. Composite-Null, Simple-Alternate (C/S)
 \begin{align}
-H_0: F \in \mathcal{F}_0 \qquad
+H_0: F \in \mathcal{F}_0, \qquad
 H_A: F \in \mathcal{F}_A.
 \end{align}
 
 3. Composite-Null, Composite-Alternate (C/C):
 \begin{align}
-H_0: F \in \mathcal{F}_0 \qquad
+H_0: F \in \mathcal{F}_0, \qquad
 H_A: F \in \mathcal{F}_A.
 \end{align}
 
 Each of the above can be re-written in terms of parameters.  Specifically, we can make the following substitutions:
 
 \begin{align}
-F = F_j \Rightarrow \theta(F) = \theta(F_j)  \qquad
+F = F_j \Rightarrow \theta(F) = \theta(F_j),  \qquad
 F \in \mathcal{F}_j \Rightarrow \theta(F) \in \Theta_j,
 \end{align}
  where $$\Theta_j = \{ \theta : \theta(F) \in \mathcal{F}_j \}$$.

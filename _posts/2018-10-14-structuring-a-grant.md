@@ -2,7 +2,7 @@
 layout: post
 title:  "How to Structure a Grant"
 date:   2018-10-14 14:27:57 -0400
-tags: bits, writing
+tags: writing
 author: Joshua Vogelstein
 ---
 
@@ -38,18 +38,18 @@ This is one page, and it matters more than everything else combined. I do it as 
 ### Some other tips:
 
 
-1. Follow my blog post on [words]({{ site.baseurl }}{% post_url 2018-10-04-words %})
-2. Follow my blog post on [paragraph]({{ site.baseurl }}{% post_url 2018-10-04-paragraphs %})
+1. Follow my blog post on [words]({{ site.baseurl }}{% post_url 2018-10-14-words %})
+2. Follow my blog post on [paragraph]({{ site.baseurl }}{% post_url 2018-10-14-paragraphs %})
 3. Follow my blog post on [figures]({{ site.baseurl }}{% post_url 2018-09-08-figures %})
 4. The "name" of each aim/task should be an ["action title"](http://www.quickslide-powerpoint.com/en/blog/action-titles-providing-orientation-well-thought-out-slide-titles)
-1. Each aim/task should follow OCAR
-1. For each sub-aim/task, include a **bold** sentence precisely and concisely stating its objective (the *action* part)
-2. Make sure to distinguish your own work from others explicitly every time your work is cited
-3. Check that formatting is consistent across *all* documents (both within type, eg biosketches) and across.
-4. Use [google docs](https://www.google.com/docs/about/)
-5. Use [paperpile](https://paperpile.com/) for references (free version for 2 weeks)
-6. Use [auto-latex](https://chrome.google.com/webstore/detail/auto-latex-equations/iaainhiejkciadlhlodaajgbffkebdog?hl=en-US) for equations
-7. Keep figures at very end until last opportunity
+5. Each aim/task should follow OCAR
+6. For each sub-aim/task, include a **bold** sentence precisely and concisely stating its objective (the *action* part)
+7. Make sure to distinguish your own work from others explicitly every time your work is cited
+8. Check that formatting is consistent across *all* documents (both within type, eg biosketches) and across.
+9. Use [google docs](https://www.google.com/docs/about/)
+10. Use [paperpile](https://paperpile.com/) for references (free version for 2 weeks)
+11. Use [auto-latex](https://chrome.google.com/webstore/detail/auto-latex-equations/iaainhiejkciadlhlodaajgbffkebdog?hl=en-US) for equations
+12. Keep figures at very end until last opportunity
 
 
 #### NSF specific
