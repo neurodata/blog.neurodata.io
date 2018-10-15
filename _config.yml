@@ -44,6 +44,9 @@ tag_page_dir: tag
 
 show_excerpts: true
 
+disqus:
+  shortname: "blog-neurodata-io"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
