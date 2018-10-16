@@ -120,7 +120,7 @@ H_A: F_{UV} \neq F_U F_V.
 
 Thus, two-sample tests are special cases of independence tests, which are composite/composite tests.
 
-Moreover, two-sample tests can also be written as simple goodness-of-fit tests, which is readily apparently.  Thus, simple goodness-of-fit tests are also independence tests.
+Moreover, two-sample tests can also be written as simple goodness-of-fit tests, which is readily apparently, as described below.  Thus, simple goodness-of-fit tests are also independence tests.
 
 #### Goodness-of-Fit Testing
 
