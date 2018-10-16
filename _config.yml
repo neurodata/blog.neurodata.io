@@ -39,16 +39,13 @@ defaults:
     values:
       comments: true
 
-repository  : "neurodata/blog.neurodata.io"
-comments:
-  provider  : "staticman_v2"
-staticman:
-  branch    : "master"
-
 tag_page_layout: tag_page
 tag_page_dir: tag
 
 show_excerpts: true
+
+disqus:
+  shortname: "blog-neurodata-io"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
