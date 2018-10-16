@@ -57,19 +57,19 @@ F \in \mathcal{F}_j \Rightarrow \theta(F) \in \Theta_j,
 
 Note that composite tests (those where the null or alternate is composite) can be both one-sided or two-sided.  In particular, the simple/composite null hypothesis can be restated: $$H_0: F-F_0 = 0$$.  Given that, a one-sided simple/composite test is:
 \begin{align}
-H_0: F - F_0 =  0 \qquad
+H_0: F - F_0 =  0, \qquad
 H_A: F - F_0 > 0.
 \end{align}
 Of course, we could just as easily replace the $$>$$ in the alternate with $$<$$.  
 
 The two-sided composite test can be written:
 \begin{align}
-H_0: F - F_0 = 0 \qquad
+H_0: F - F_0 = 0, \qquad
 H_A: F - F_0 \neq 0,
 \end{align}
 or equivalently,
 \begin{align}
-H_0: F = F_0 \qquad
+H_0: F = F_0, \qquad
 H_A: F \neq F_0.
 \end{align}
 
@@ -85,22 +85,42 @@ Thus, there are essentially three kinds of composite hypotheses:
 
 ### Examples
 
-#### Univariate Examples
-
-Several classic univariate examples illustrate the above three cases.
-A classic simple/simple setting is: $$\mathcal{F}$$ is univariate Gaussian,  $$F_0=\mathcal{N}(0,1)$$, and $$F_A=\mathcal{N}(1,1)$$.   A simple/composite generalization of the above is: $$\mathcal{F}$$ is univariate Gaussian,  $$F_0=\mathcal{N}(0,1)$$, and $$\mathcal{F}_A=\mathcal{N}(\mu,1)$$, where $$\mu > 0$$.   A composite/composite generalization of the above is:
-For example, $$\mathcal{F}$$ is univariate Gaussian,  $$\mathcal{F}_0=\mathcal{N}(\mu,1)$$ with $$\mu < 0$$, and $$\mathcal{F}_A=\mathcal{N}(\mu,1)$$, where $$\mu \geq 0$$.
 
 #### Independent Testing
 
-A slightly more interesting case is a bivariate independence test.  In this case, let $$X_i = (X_i^1, X_i^2) \sim F_{X_1, X_2}$$. Now we test:
+An independence test is one of the fundamental tests in statistics.   In this case, let $$Z_i = (X_i, Y_i) \sim F_{XY}$$. Now we test:
 \begin{align}
-H_0: F_{X_1,X_2} = F_{X_1} F_{X_2} \qquad
-H_A: F_{X_1,X_2} \neq F_{X_1} F_{X_2}.
+H_0: F_{X,Y} = F_{X} F_{Y} \qquad
+H_A: F_{X,Y} \neq F_{X} F_{Y}.
 \end{align}
 
-In other words, we define $$\mathcal{F}_0$$ as the set of joint distributions on $$(X_1,X_2)$$ such that the joint equals the product of the marginals: $$\mathcal{F}_0 = \{ F_{X_1,X_2} = F_{X_1}F_{X_2} \}$$, and we define $$\mathcal{F}_A$$ as the complement of that set, $$\mathcal{F}_0^c = \mathcal{F} \backslash \mathcal{F}_0 = \mathcal{F}_A$$.  In other words, independence tests are special cases of composite/composite tests.   
+In other words, we define $$\mathcal{F}_0$$ as the set of joint distributions on $$(X,Y)$$ such that the joint equals the product of the marginals: $$\mathcal{F}_0 = \{ F_{X,Y} = F_{X}F_{Y} \}$$, and we define $$\mathcal{F}_A$$ as the complement of that set, $$\mathcal{F}_0^c = \mathcal{F} \backslash \mathcal{F}_0 = \mathcal{F}_A$$.  In other words, independence tests are special cases of composite/composite tests.   
 
+
+#### Two-Sample Testing
+
+
+Let $$X_i \sim F_1$$, for $$i \in [n]$$ be a random variable, where each $$X_i$$ is sampled independently and identically according to some distribution $$F_1$$.  Realizations of $$X_i$$ are $$x_i \in \mathcal{X}$$.  
+
+Additionally, let $$Y_i \sim F_2$$, for $$i \in [m]$$ be a random variable, where each $$Y_i$$ is sampled independently and identically according to some distribution $$F_2$$.  Realizations of $$Y_i$$ are $$y_i \in \mathcal{Y}$$.  
+
+Given these definitions, all two-sample testing can be written as:
+
+\begin{align}
+H_0: F_1 = F_2 \qquad
+H_A: F_1 \neq F_2.
+\end{align}
+
+This can be written as a composite/composite test.  First, define the mixture distribution $$F = \pi_1 F_1 + \pi_2 F_2$$, where $$\pi_1,\pi_2 \geq 0$$ and  $$\pi_1+\pi_2=1$$. Now, sample $$U_i \sim F$$ for $$n+m$$ times.  To make it exactly equal to the above, set $$\pi_1 = n/(n+m)$$.  Moreover, define $$V_i$$ to be the latent "class label", that is $$V_i=1$$ if $$U_i \sim F_1$$ and $$V_i=2$$ if $$U_i \sim F_2$$.  Now, we can form the independence test:
+
+\begin{align}
+H_0: F_{UV} = F_U F_V \qquad
+H_A: F_{UV} \neq F_U F_V.
+\end{align}
+
+Thus, two-sample tests are special cases of independence tests, which are composite/composite tests.
+
+Moreover, two-sample tests can also be written as simple goodness-of-fit tests, which is readily apparently.  Thus, simple goodness-of-fit tests are also independence tests.
 
 #### Goodness-of-Fit Testing
 
@@ -119,30 +139,6 @@ H_A: F \notin \mathcal{F}_0.
 \end{align}
 
 
-#### Two-Sample Testing
-
-
-Let $$X_i \sim F_1$$, for $$i \in [n]$$ be a random variable, where each $$X_i$$ is sampled independently and identically according to some distribution $$F_1$$.  Realizations of $$X_i$$ are $$x_i \in \mathcal{X}$$.  
-
-Additionally, let $$Y_i \sim F_2$$, for $$i \in [m]$$ be a random variable, where each $$Y_i$$ is sampled independently and identically according to some distribution $$F_2$$.  Realizations of $$Y_i$$ are $$y_i \in \mathcal{Y}$$.  
-
-Given these definitions, all two-sample testing can be written as:
-
-\begin{align}
-H_0: F_1 = F_2 \qquad
-H_A: F_1 \neq F_2.
-\end{align}
-
-Note that I am fairly confident that this can be written as a composite/composite test.  First, define the mixture distribution $$F = \pi_1 F_1 + \pi_2 F_2$$, where $$\pi_1,\pi_2 \geq 0$$ and  $$\pi_1+\pi_2=1$$. Now, sample $$U_i \sim F$$ for $$n+m$$ times.  To make it exactly equal to the above, set $$\pi_1 = n/(n+m)$$.  Moreover, define $$V_i$$ to be the latent "class label", that is $$V_i=1$$ if $$U_i \sim F_1$$ and $$V_i=2$$ if $$U_i \sim F_2$$.  Now, we can form the independence test:
-
-\begin{align}
-H_0: F_{UV} = F_U F_V \qquad
-H_A: F_{UV} \neq F_U F_V.
-\end{align}
-
-Thus, two-sample tests are special cases of independence tests, which are composite/composite tests.
-
-Moreover, two-sample tests can also be written as simple goodness-of-fit tests, which is readily apparently.  Thus, simple goodness-of-fit tests are also independence tests.
 
 #### K-Sample Tests
 
@@ -176,6 +172,13 @@ H_0: F_+ = -F_- \qquad
 H_A: F_+ \neq -F_-,
 \end{align}
 which is an independence test.
+
+
+#### Univariate Examples
+
+Several classic univariate examples illustrate the above three cases.
+A classic simple/simple setting is: $$\mathcal{F}$$ is univariate Gaussian,  $$F_0=\mathcal{N}(0,1)$$, and $$F_A=\mathcal{N}(1,1)$$.   A simple/composite generalization of the above is: $$\mathcal{F}$$ is univariate Gaussian,  $$F_0=\mathcal{N}(0,1)$$, and $$\mathcal{F}_A=\mathcal{N}(\mu,1)$$, where $$\mu > 0$$.   A composite/composite generalization of the above is:
+For example, $$\mathcal{F}$$ is univariate Gaussian,  $$\mathcal{F}_0=\mathcal{N}(\mu,1)$$ with $$\mu < 0$$, and $$\mathcal{F}_A=\mathcal{N}(\mu,1)$$, where $$\mu \geq 0$$.
 
 
 #### Counter Examples
