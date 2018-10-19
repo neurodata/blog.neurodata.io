@@ -4,7 +4,7 @@ title: Useful Background Reading for NeuroData
 description: ""
 modified: 2016-12-18
 category: misc
-author: jovo
+author: Joshua Vogelstein
 tags: [publicity, collaboration]
 imagefeature: to_the_cloud.jpg
 comments: true
