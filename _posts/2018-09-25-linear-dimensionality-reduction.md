@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "10 Ways of Doing Dimensionality Reduction"
+title:  "10 Methods for Linear Dimensionality Reduction"
 date:   2018-09-25 14:27:57 -0400
 tags: [bits, 10]
 author: Joshua Vogelstein
