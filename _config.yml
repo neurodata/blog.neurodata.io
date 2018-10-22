@@ -18,7 +18,7 @@ email: blog@neurodata.io
 description: >- # this means to ignore newlines until "baseurl:"
   NeuroData: enabling data-driven neuroscience
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.neurodata.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bitsandbrains.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: neuro_data
 github_username:  neurodata
 facebook_username: neurodata.io
@@ -46,6 +46,9 @@ show_excerpts: true
 
 disqus:
   shortname: "blog-neurodata-io"
+
+include: 
+  _redirects
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
