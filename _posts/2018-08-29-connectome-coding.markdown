@@ -20,8 +20,8 @@ To define connectome coding, we define both `code` and `connectome`.  Let's star
 A code is a system of (potentially stochastic) rules that translate from one representation of information into another.  
 `
 
-An example is the morse code, which is a system of rules that translate tones, lights, or clicks to alphanumerica characters. 
-In the language of statistics, a code is a conditional distribution, of a pair of random variables, $$X$$ and $$Y$$, $$P[Y \vert X]$$. This conditional distribution tells us the probability that given random variable $$X$$ takes some value from it set of possible values $$x \in \mathcal{X}$$,  that $$Y$$ takes any of its possible values, $$y \in \mathcal{Y}$$.  In other words, $$P[Y \vert X]$$ is the probabilistic rule converting from $$x$$ to $$y$$.
+An example is the morse code, which is a system of rules that translate tones, lights, or clicks to alphanumeric characters. 
+In the language of statistics, a code is a conditional distribution, of a pair of random variables, $$X$$ and $$Y$$, $$P[Y \vert X]$$. This conditional distribution tells us the probability that given random variable $$X$$ takes some value from its set of possible values $$x \in \mathcal{X}$$,  that $$Y$$ takes any of its possible values, $$y \in \mathcal{Y}$$.  In other words, $$P[Y \vert X]$$ is the probabilistic rule converting from $$x$$ to $$y$$.
 
 
 
@@ -30,9 +30,9 @@ OK, now that `code` is hopefully clear, what is `connectome`?
 ```A connectome is a network of the brain, at a particular time, for a particular spatiotemporal scale, potentially including node (or vertex) attributes such as names, locations, and labels in a hierarchical ontology, as well as connection (or edge) attributes such as weights and confidences.  Both vertex and edge attributes can have morphological properties characterizing their  three-dimensional (3D) shapes.  Note that each individual vertex and edge is  contiguous in space.
 ```
 
-OK, now we have `code` and `connectome` definitions. So a connectome code is a conditional distribution, where either $$X$$ or $$Y$$ corresponds to the random variable whose realizations are connectomes.  But what is the other random variable representing?
+OK, now we have definitions for both `code` and `connectome`. So a connectome code is a conditional distribution, where either $$X$$ or $$Y$$ corresponds to the random variable whose realizations are connectomes.  But what is the other random variable representing?
 
-To explain that, we take a step back, and provide our conceptual model of brains, bodies, and worlds (see below image). Worlds contain bodies which contain brains. And brains are composed both both structure (which we think of as basically "static") and activity (which we think of as basically "dynamic").  The brain's job is to direct the body's behavior so that the organism wins the evolutionary game in its particular niche of the world (its environment), and propagates its genes to the next generation.  The structure of the brain, its **connectome**, is determined jointly by developmental programs (encoded in the genome), and activity dependent plasticity (resulting from ongoing brain activity, which in turn is dependent on the body and world).
+To explain that, we take a step back, and provide our conceptual model of brains, bodies, and worlds (see below image). Worlds contain bodies which contain brains. And brains are composed of both structure (which we think of as basically "static") and activity (which we think of as basically "dynamic").  The brain's job is to direct the body's behavior so that the organism wins the evolutionary game in its particular niche of the world (its environment), and propagates its genes to the next generation.  The structure of the brain, its **connectome**, is determined jointly by developmental programs (encoded in the genome), and activity dependent plasticity (resulting from ongoing brain activity, which in turn is dependent on the body and world).
 
 <!-- ![](../../../_site/assets/brain-body-world) -->
 <!-- ![]("/assets/brain-body-world") -->
