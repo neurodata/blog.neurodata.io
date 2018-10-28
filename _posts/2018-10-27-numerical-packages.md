@@ -44,13 +44,13 @@ These notes were co-written myself, and a number of other people, including [Gre
 2. Write unit tests for each function, for example, using [testthat](http://testthat.r-lib.org/) for R, or [unittest](https://docs.python.org/3/library/unittest.html) for Python.
 3.  Incorporate continuous integration, for example, using either  [TravisCI](https://travis-ci.org/) or  [CircleCI](https://circleci.com/).
 4.  Add the following [badges](https://shields.io/#/) to your repo: 
-    1.  [build status](https://www.docker.com/), 
-    2.  [code quality](https://codeclimate.com/), 
-    3.  [coverage](https://coveralls.io/), 
-    5.  [documentaiton]https://readthedocs.org/, 
-    4.  stable release version, 
+    1.  [build status](https://www.docker.com/) to indicate whether the virtual machine that contains the latest version of your code is running, 
+    2.  [code quality](https://codeclimate.com/) to indicate that your code is written using modern best practices, 
+    3.  [coverage](https://coveralls.io/) to indicate the extent to which you have written tests for your functions, 
+    5.  [documentaiton](https://readthedocs.org/) to indicate that you generated documentation, 
+    4.  stable release version so people know which release they are on, 
     6.  total number of downloads, 
-    7.  package manager, 
+    7.  package manager so people can find the most recent stable version of your code, 
     8.  license, and 
     9.  DOI. 
 5.  Finally, benchmarks establishing current performance (using appropriate metrics) on standard problems, and better yet also comparing to other standard methods. Ideally, the code the generate the benchmark numbers are provided in [Jupyter notebooks](http://jupyter.org/) provided in your [Gigantum](https://gigantum.com/) project.
@@ -63,3 +63,5 @@ A few examples of numerical packages that we have released that satisfy all (or 
 - [LOL](https://github.com/neurodata/LOL)
 - [ndreg](https://github.com/neurodata/ndreg)
 - [knor](https://github.com/neurodata/knorR)
+- [boutiques](https://github.com/boutiques/boutiques)
+- [clowdr](https://github.com/gkiar/clowdr)
