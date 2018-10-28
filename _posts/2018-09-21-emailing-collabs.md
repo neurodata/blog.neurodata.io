@@ -12,9 +12,11 @@ In our globally collected world, and scientific practice, we collaborate quite e
 2. Make the email as short and to the point as possible.  We find that people don't like to read long emails.
 3. Indicate your excitement. We find that people like working with people that love their joint work.
 4. Allude to incentives that they care about: fame, fortune, glory, publications, grants, etc.  We find that people respond to incentives, see for example the first sentence of [The Armchair Economist: Economics and Everyday Life Paperback – by Steven E. Landsburg](https://www.amazon.com/Armchair-Economist-Economics-Everyday-Life/dp/1451651732): 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2c7e31cea2038a87cdf77bb891ac1dcecd7c1acb
 ` Most of economics can be summarized in four words: “People respond to incentives.” The rest is commentary.`
-
 5. If you are a trainee, or otherwise have a "boss", send a draft to your boss first.
 
 
