@@ -6,8 +6,8 @@ tags: education
 author: Joshua Vogelstein
 ---
 
-I get many emails from potential trainees inquiring about a job,
-this ranges from high school students to people that have already completed a few postdocs to retirees.
+I get many emails from potential trainees inquiring about a job.
+This ranges from high school students to people that have already completed a few postdocs to retirees.
 We love working with many different people, from all walks of life and at all stages of education (we are in many of them ourselves). This blog post explains our thought process in terms of how we choose who to be on our team.  We hope it is useful to you, and look forward to your feedback and working with you!
 
 We have a few basic requirements for being on the team:
@@ -44,13 +44,13 @@ Best,
 [Some Awesome Person.]
 
 
-In conclusion, a brief checkslist that may help you of what to include in your email to faculty:
+In conclusion, a brief checklist that may help you of what to include in your email to faculty:
 
-1. excitement about working on something specific relevant to the individual you are contacting
-2. relevant background experience
-3. desired duration and title of position
-4. up to date cv
-5. remember, the shorter the better, this is just to get your foot in the door.
+1. Excitement about working on something specific relevant to the individual you are contacting
+2. Relevant background experience
+3. Desired duration and title of position
+4. Up to date cv
+5. Remember, the shorter the better, this is just to get your foot in the door.
 
 
 Good luck!
