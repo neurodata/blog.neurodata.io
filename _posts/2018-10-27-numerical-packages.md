@@ -37,10 +37,10 @@ These notes were co-written myself, and a number of other people, including [Gre
 ### Modify
 
 1. Include contribution guidelines, including: 
-    a. style guidelines ([Google's](https://google.github.io/styleguide/Rguide.xml) or [Hadley's](http://adv-r.had.co.nz/Style.html) for R, or [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python, 
-    b. bug reports, 
-    c. pull requests, and  
-    d. feature additions.
+    1. style guidelines ([Google's](https://google.github.io/styleguide/Rguide.xml) or [Hadley's](http://adv-r.had.co.nz/Style.html) for R, or [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python, 
+    2. bug reports, 
+    3. pull requests, and  
+    4. feature additions.
 2. Write unit tests for each function, for example, using [testthat](http://testthat.r-lib.org/) for R, or [unittest](https://docs.python.org/3/library/unittest.html) for Python.
 3.  Incorporate continuous integration, for example, using either  [TravisCI](https://travis-ci.org/) or  [CircleCI](https://circleci.com/).
 4.  Add the following [badges](https://shields.io/#/) to your repo: 
