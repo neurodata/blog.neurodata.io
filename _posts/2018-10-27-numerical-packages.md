@@ -14,14 +14,14 @@ These notes were co-written myself, and a number of other people, including [Gre
 1. To make your code findable, we recommend three steps:
     1. make the code open source on a searchable code repository (e.g., [github](https://github.com/) or [gitlab](https://about.gitlab.com/)),
     2.  generate a permanent Digital Object Identifier (DOI) so that you can freely move the code to other web-servies if you so desire without breaking the links (e.g., using [zenodo](https://zenodo.org/)), and 
-    3.  add a license so that others can freely use your code without worrying about legal ramifications (more permissive is preferred, see [here](https://opensource.org/licenses) for options).
+    3.  add a license so that others can freely use your code without worrying about legal ramifications (see [here](https://opensource.org/licenses) for options).
 
 ### Install
 
 
 1. Provide installation guidelines, including  *1-line installation* instructions with system requirements (including hardware and OS),  software dependencies, and expected install time.  
 
-2. Deposit your code into a standard package manager, such as [CRAN](https://cran.r-project.org/) for R or [PyPi](https://pypi.org/) for Python. Better yet, provide a virtual machine with your package pre-installed, for example, using [Docker](https://www.docker.com/) or [Gigantum](https://gigantum.com/).
+2. Deposit your code into a standard package manager, such as [CRAN](https://cran.r-project.org/) for R or [PyPi](https://pypi.org/) for Python. You might also provide a container or virtual machine image with your package pre-installed, for example, using [Docker](https://www.docker.com/), [Singularity](https://www.sylabs.io/docs/) or [Gigantum](https://gigantum.com/).
 
 
 ### Run
