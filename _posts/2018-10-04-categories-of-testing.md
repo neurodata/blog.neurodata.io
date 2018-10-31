@@ -9,7 +9,7 @@ author: Joshua Vogelstein
 Hypothesis testing is a procedure for evaluating the likelihood that a given dataset corresponds to a particular "null" model.   Formally, all hypothesis testing scenarios can be described as follows.
 
 
-Let $$X_i \sim F$$, for $$i \in [n]=\{1,\ldots,n\}$$ be a random variable, where each $$X_i$$ is sampled independently and identically according to some distribution $$F$$.  Realizations of $$X_i$$ are $$x_i \in \mathcal{X}$$.  We further assume that $$F \in \mathcal{F}$$, that is $$F$$ is a distribution that lives in a model $$\mathcal{F} = \{F : \mathcal{F}\}$$.  Moreover, we partition $$\mathcal{F}$$ into two complementary sets, $$\mathcal{F}_0$$ and $$\mathcal{F}_A$$, such that $$\mathcal{F}_0 \cup \mathcal{F}_A = \mathcal{F}$$ and $$\mathcal{F}_0 \cap \mathcal{F}_A = \emptyset$$.  Given these definitions, all  hypothesis testing can be written as:
+Let $$X_i \sim F$$, for $$i \in [n]=\{1,\ldots,n\}$$ be a random variable, where each $$X_i$$ is sampled independently and identically according to some distribution $$F$$.  Realizations of $$X_i$$ are $$x_i \in \mathcal{X}$$.  We further assume that $$F \in \mathcal{F}$$, that is, $$F$$ is a distribution that lives in a model $$\mathcal{F} = \{F : \mathcal{F}\}$$.  Moreover, we partition $$\mathcal{F}$$ into two complementary sets, $$\mathcal{F}_0$$ and $$\mathcal{F}_A$$, such that $$\mathcal{F}_0 \cup \mathcal{F}_A = \mathcal{F}$$ and $$\mathcal{F}_0 \cap \mathcal{F}_A = \emptyset$$.  Given these definitions, all hypothesis tests can be written as:
 
 \begin{align}
 H_0: F \in \mathcal{F}_0, \qquad
@@ -86,7 +86,7 @@ Thus, there are essentially three kinds of composite hypotheses:
 ### Examples
 
 
-#### Independent Testing
+#### Independence Testing
 
 An independence test is one of the fundamental tests in statistics.   In this case, let $$Z_i = (X_i, Y_i) \sim F_{XY}$$. Now we test:
 \begin{align}
@@ -120,7 +120,7 @@ H_A: F_{UV} \neq F_U F_V.
 
 Thus, two-sample tests are special cases of independence tests, which are composite/composite tests.
 
-Moreover, two-sample tests can also be written as simple goodness-of-fit tests, which is readily apparently, as described below.  Thus, simple goodness-of-fit tests are also independence tests.
+Moreover, two-sample tests can also be written as simple goodness-of-fit tests, which is readily apparent, as described below.  Thus, simple goodness-of-fit tests are also independence tests.
 
 #### Goodness-of-Fit Testing
 
