@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "11 Simples Rules for Releasing Numerical Packages"
+title:  "11 Simples Rules for Releasing Data Science Tools"
 date:   2018-10-21 14:27:57 -0400
 tags:  [10, bits]
 author: Joshua Vogelstein
@@ -12,9 +12,9 @@ These notes were co-written myself, and a number of other people, including [Gre
 ### Find
 
 1. To make your code findable, we recommend three steps:
-    1. make the code open source on a searchable code repository (e.g., [github](https://github.com/) or [gitlab](https://about.gitlab.com/)),
-    2.  generate a permanent Digital Object Identifier (DOI) so that you can freely move the code to other web-servies if you so desire without breaking the links (e.g., using [zenodo](https://zenodo.org/)), and 
-    3.  add a license so that others can freely use your code without worrying about legal ramifications (see [here](https://opensource.org/licenses) for options).
+    1. Make the code open source on a searchable code repository (e.g., [github](https://github.com/) or [gitlab](https://about.gitlab.com/)).
+    2.  Generate a permanent Digital Object Identifier (DOI) so that you can freely move the code to other web-servies if you so desire without breaking the links (e.g., using [zenodo](https://zenodo.org/)).
+    3.  Add a license so that others can freely use your code without worrying about legal ramifications (see [here](https://opensource.org/licenses) for options).
 
 ### Install
 
@@ -44,16 +44,15 @@ These notes were co-written myself, and a number of other people, including [Gre
 2. Write unit tests for each function, for example, using [testthat](http://testthat.r-lib.org/) for R, or [unittest](https://docs.python.org/3/library/unittest.html) for Python.
 3.  Incorporate continuous integration, for example, using either  [TravisCI](https://travis-ci.org/) or  [CircleCI](https://circleci.com/).
 4.  Add the following [badges](https://shields.io/#/) to your repo: 
-    1.  [build status](https://www.docker.com/) to indicate whether the virtual machine that contains the latest version of your code is running, 
+    9.  DOI. 
+    8.  license,  
+    4.  stable release version so people know which release they are on (from package manager), 
+    5.  [documentation](https://readthedocs.org/) to indicate that you generated documentation, 
     2.  [code quality](https://codeclimate.com/) to indicate that your code is written using modern best practices, 
     3.  [coverage](https://coveralls.io/) to indicate the extent to which you have written tests for your functions, 
-    5.  [documentaiton](https://readthedocs.org/) to indicate that you generated documentation, 
-    4.  stable release version so people know which release they are on, 
+    1.  [build status](https://www.docker.com/) to indicate whether the virtual machine that contains the latest version of your code is running, 
     6.  total number of downloads, 
-    7.  package manager so people can find the most recent stable version of your code, 
-    8.  license, and 
-    9.  DOI. 
-5.  Finally, benchmarks establishing current performance (using appropriate metrics) on standard problems, and better yet also comparing to other standard methods. Ideally, the code the generate the benchmark numbers are provided in [Jupyter notebooks](http://jupyter.org/) provided in your [Gigantum](https://gigantum.com/) project.
+ 1.  Finally, benchmarks establishing current performance (using appropriate metrics) on standard problems, and better yet also comparing to other standard methods. Ideally, the code the generate the benchmark numbers are provided in [Jupyter notebooks](http://jupyter.org/) provided in your [Gigantum](https://gigantum.com/) project.
 
 
 A few examples of numerical packages that we have released that satisfy all (or most of) these rules include:
