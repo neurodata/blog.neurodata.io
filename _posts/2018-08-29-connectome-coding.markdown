@@ -34,10 +34,23 @@ Nodes, for example, can be neurons, anatomical brain regions, or a set of voxels
 #### Example Connectomes
 
 
-We describe several different estimates of connectomes spanning the phylogenetic tree and spatiotemporal scales.  We will use these connectomes as working examples  to illustrate the power and flexibility of our proposed connectome coding framework. An adjacency matrix of a network shows the strength of connection between any pair of nodes.  Figure 2 shows adjacency matrices for several different connectomes, to illustrate the flexibility of the concept of connectome.
+We describe several different estimates of connectomes spanning the phylogenetic tree and spatiotemporal scales.  We will use these connectomes as working examples  to illustrate the power and flexibility of our proposed connectome coding framework. Figure 2 shows several different connectomes, to illustrate the flexibility of the concept of connectome.
+
+![connectomes](/assets/post_images/fig_connectomes.png)
+**Figure 2** Connectomes spanning four levels of the phylogenetic tree, each acquired using different experimental modalities and spatial resolutions, ranging from nanoscale (electron microscopy) to macroscale (MRI regions).  An adjacency matrix of a network shows the strength of connection between any pair of nodes.   The connectomes are depicted as weighted adjacency matrices; for the worm and human, the connectomes are multi-connectomes, with two different edge types, denoted by two different colors. In each case, the nodes are sorted by region.  Moreover, along each connectome we provide the degree sequence, that is, the sum of edge weights for each node. 
+<!-- % @EB: consider adding the following:
+1. update C. elegans with newer data
+2. title of c. elegans should specify herm vs male.
+% 2. adding male c elegans?
+% 3. adding other drosophila dataset?
+% 4. add region labels to x- and y-axes
+% 5. make degree distributions conditional, eg, on type, or hemisphere, etc.?
+% 6. update drosophila to have both left and right (in red and black), and make  both weighted.
+% 7.  update mouse to also include Allan connectivity.
+ -->
 
 - **(A) Caenorhabditis elegans**	The  *Caenorhabditis elegans* (C. elegans) is the only animal that we have a complete, neuron-to-neuron level connectome. In the C. elegans connectome, edges are either chemical synapses or gap junctions.  Each edge's strength or weight corresponds to the number of synapses between its parent neurons. There are two sexes of C. elegans, the male and hermaphrodite, with different numbers of neurons (the male has more, most of the neurons are shared between the two sexes, but not all).  These connectome estimates  are derived by cumbersome manual tracing of axons and dendrites, and identification of synapses, in nanoscale electron micrographs, and were updated by  Varshney et al. (2011) and  Bentley (2016). 
-The neurons have multiple kinds of labels, including names, side (left (L) vs. right (R) vs. neither) and class  (sensory (S), internal (I), and motor (M)). Figure  2(B) shows the hermaphrodite weighted multi-connectome, including both chemical (gray) and electrical (red)  synapses.  Note that chemical synapses are unidirectional, whereas electrical synapses are bidirectional.
+The neurons have multiple kinds of labels, including names, side (left  vs. right  vs. neither) and class  (sensory, internal, and motor). Figure  2(B) shows the hermaphrodite weighted multi-connectome, including both chemical (gray) and electrical (red)  synapses.  Note that chemical synapses are unidirectional, whereas electrical synapses are bidirectional.
 
 - **(B) Drosophila melanogaster**	Eichler et al. (2017) published a complete larval Drosophila connectome of both the left and right mushroom body, also derived from serial electron microscopy, using only chemical synapses. These edges are weighted (based on  counting the  number of synapses between a pair of neurons), and  directed.
 	Neurons are categorized  into  kenyon cells (K), input neurons (I), output neurons (O), and projection neurons (P).  Figure  2(B) shows both the left and right mushroom bodies. Edges are both weighted and directed.
@@ -49,20 +62,9 @@ The neurons have multiple kinds of labels, including names, side (left (L) vs. r
 - **(D) Homo sapiens**  The Consortium for Reliability and Reproducibility collects multiple measurements of functional resting-state (F),  anatomical (A),  and/or diffusion (D) magnetic resonance imaging per individual. The  functional connectomes are Pearson correlation matrices, which have been converted to ranks, and then normalized between zero and one,  because such a representation has been shown to be more reliable than raw or thresholded correlations \cite{reliability}.  The diffussion connectomes are normalized as described above for the mouse.  The above multi-connectome estimate is derived from averaging the entire dataset consisting of 3,067 dMRI and 1,760 fMRI connectomes.  Of the many possible brain parcellations, each defining nodes differently, we elected to  use the Desikan parellation, assigning each cortical region into lobes including frontal (F),  occiptal (O), parietal (P), and temporal (T), as well as sub-cortical structures (S).
 
 
-Caption: Connectomes spanning four levels of the phylogenetic tree, each acquired using different experimental modalities and spatial resolutions, ranging from nanoscale (electron microscopy) to macroscale (MRI regions).  In each case, the connectomes are depicted as weighted adjacency matrices; for the worm and human, the connectomes are multi-connectomes, with two different edge types, denoted by two different colors. In each case, the vertices are sorted by region.  Moreover, along each connectome we provide the degree sequence, that is, the ``degree centrality'' for each node and modality. 
-<!-- % @EB: consider adding the following:
-% 1. updating C. elegans with newer data
-% 2. adding male c elegans
-% 3. adding other drosophila dataset
-% 4. add region labels to x- and y-axes
-% 5. make degree distributions conditional, eg, on type, or hemisphere, etc.?
-% 6. update drosophila to have both left and right (in red and black), and make  both weighted.
-% 7.  ideally, update mouse to also include Allan connectivity.
-% 8. i think our plot of nnz vs avg weight makes sense if we restrict it to all the human multigraphs?
-% 9. adding allen connectome
- -->
 
-#### Distinctions between Connectomics, Graph Theory, Anatomy, and Neural Circuits
+
+#### What is and what is not, Connectomics?
 
 In classical graph theory, nodes have no labels or other attributes, and neither do edges (including weights).  Thus, commonly in connectomics the node labels, edge weights, and other properties are discarded during the analysis.  Note, however, that
 there is no way to estimate a connectome without making decisions about which properties to incorporate, even if one can ignore them in the downstream analysis. Such properties need not be ignore in studies of connectomes. However, the existing set of tools commonly used in connectomics does not incorporate these properties, and thereby motivating extending the standard network analysis toolbox. 
