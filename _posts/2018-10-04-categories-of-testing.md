@@ -55,13 +55,12 @@ F \in \mathcal{F}_j \Rightarrow \theta(F) \in \Theta_j,
 \end{align}
  where $$\Theta_j = \{ \theta : \theta(F) \in \mathcal{F}_j \}$$.
 
-Note that composite tests (those where the null or alternate is composite) can be both one-sided or two-sided.  In particular, the simple/composite null hypothesis can be restated: $$H_0: F-F_0 = 0$$.  Given that, a one-sided simple/composite test is:
+Note that composite tests (those where the null or alternate is composite) can be both one-sided or two-sided.  In particular, the simple null hypothesis can be restated: $$H_0: F-F_0 = 0$$.  Given that, a one-sided simple/composite test is:
 \begin{align}
 H_0: F - F_0 =  0, \qquad
 H_A: F - F_0 > 0.
 \end{align}
 Of course, we could just as easily replace the $$>$$ in the alternate with $$<$$.  
-
 The two-sided composite test can be written:
 \begin{align}
 H_0: F - F_0 = 0, \qquad
@@ -77,9 +76,9 @@ In other words, the simple null, two-sided composite is equivalent to a test for
 
 
 Thus, there are essentially three kinds of composite hypotheses:
-1. one-sided
-2. two-sided
-3. not one or two sided (e.g., more complex sets)
+1. one-sided,
+2. two-sided, or 
+3. neither (e.g., the alternative is a more complex set).
 
 
 
@@ -94,7 +93,7 @@ H_0: F_{X,Y} = F_{X} F_{Y} \qquad
 H_A: F_{X,Y} \neq F_{X} F_{Y}.
 \end{align}
 
-In other words, we define $$\mathcal{F}_0$$ as the set of joint distributions on $$(X,Y)$$ such that the joint equals the product of the marginals: $$\mathcal{F}_0 = \{ F_{X,Y} = F_{X}F_{Y} \}$$, and we define $$\mathcal{F}_A$$ as the complement of that set, $$\mathcal{F}_0^c = \mathcal{F} \backslash \mathcal{F}_0 = \mathcal{F}_A$$.  In other words, independence tests are special cases of composite/composite tests.   
+In other words, we define $$\mathcal{F}_0$$ as the set of joint distributions on $$(X,Y)$$ such that the joint equals the product of the marginals: $$\mathcal{F}_0 = \{ F_{X,Y} = F_{X}F_{Y} \}$$, and we define $$\mathcal{F}_A$$ as the complement of that set, $$\mathcal{F}_0^c = \mathcal{F} \backslash \mathcal{F}_0 = \mathcal{F}_A$$.  Independence tests are special cases of C/C tests.   
 
 
 #### Two-Sample Testing
@@ -111,20 +110,19 @@ H_0: F_1 = F_2 \qquad
 H_A: F_1 \neq F_2.
 \end{align}
 
-This can be written as a composite/composite test.  First, define the mixture distribution $$F = \pi_1 F_1 + \pi_2 F_2$$, where $$\pi_1,\pi_2 \geq 0$$ and  $$\pi_1+\pi_2=1$$. Now, sample $$U_i \sim F$$ for $$n+m$$ times.  To make it exactly equal to the above, set $$\pi_1 = n/(n+m)$$.  Moreover, define $$V_i$$ to be the latent "class label", that is $$V_i=1$$ if $$U_i \sim F_1$$ and $$V_i=2$$ if $$U_i \sim F_2$$.  Now, we can form the independence test:
+This can be written as an independence test.  First, define the mixture distribution $$F = \pi_1 F_1 + \pi_2 F_2$$, where $$\pi_1,\pi_2 \geq 0$$ and  $$\pi_1+\pi_2=1$$. Now, sample $$U_i \sim F$$ for $$n+m$$ times.  To make it exactly equal to the above, set $$\pi_1 = n/(n+m)$$.  Moreover, define $$V_i$$ to be the latent "class label", that is $$V_i=1$$ if $$U_i \sim F_1$$ and $$V_i=2$$ if $$U_i \sim F_2$$.  Now, we can form the independence test:
 
 \begin{align}
 H_0: F_{UV} = F_U F_V \qquad
 H_A: F_{UV} \neq F_U F_V.
 \end{align}
 
-Thus, two-sample tests are special cases of independence tests, which are composite/composite tests.
-
 Moreover, two-sample tests can also be written as simple goodness-of-fit tests, which is readily apparent, as described below.  Thus, simple goodness-of-fit tests are also independence tests.
+
 
 #### Goodness-of-Fit Testing
 
-The most general kind of a goodness-of-fit test is a composite/composite test:
+The most general kind of a goodness-of-fit test is a C/C test:
 \begin{align}
 H_0: F \in \mathcal{F}_0 \qquad
 H_A: F \notin \mathcal{F}_0.
@@ -132,13 +130,13 @@ H_A: F \notin \mathcal{F}_0.
 In other words, $$\mathcal{F}_A = \mathcal{F}_0^c = \mathcal{F} \backslash \mathcal{F}_0$$.
 
 
-The simple/composite test is a special case:
+The S/C goodness-of-fit test is a special case:
 \begin{align}
 H_0: F = F_0 \qquad
-H_A: F \notin \mathcal{F}_0.
+H_A: F \neq F_0.
 \end{align}
 
-
+This special case is clearly an instance of a two-sample test; the only difference is that the second distribution is not estimated from the data, but rather, is provided by the null. 
 
 #### K-Sample Tests
 
@@ -174,17 +172,43 @@ H_A: F_+ \neq -F_-,
 which is an independence test.
 
 
-#### Univariate Examples
+#### Multinomial Test
 
-Several classic univariate examples illustrate the above three cases.
-A classic simple/simple setting is: $$\mathcal{F}$$ is univariate Gaussian,  $$F_0=\mathcal{N}(0,1)$$, and $$F_A=\mathcal{N}(1,1)$$.   A simple/composite generalization of the above is: $$\mathcal{F}$$ is univariate Gaussian,  $$F_0=\mathcal{N}(0,1)$$, and $$\mathcal{F}_A=\mathcal{N}(\mu,1)$$, where $$\mu > 0$$.   A composite/composite generalization of the above is:
-For example, $$\mathcal{F}$$ is univariate Gaussian,  $$\mathcal{F}_0=\mathcal{N}(\mu,1)$$ with $$\mu < 0$$, and $$\mathcal{F}_A=\mathcal{N}(\mu,1)$$, where $$\mu \geq 0$$.
-
-
-#### Counter Examples
-
-The first example given:
+Assume $$X \sim $$Multinomial$$(p_1, p_2, p_3; n)$$, and let:
 \begin{align}
-H_0: \theta(F) < 0 \qquad H_A: \theta(F) \geq 0,
+H_0: p_1 = p_2 = p_3 \qquad
+H_A: \text{not all equal}.
 \end{align}
-is not obviously an independent test.  But maybe it is too.
+
+This is again a $$K$$ sample test, which is an independence test.
+
+Considering a slightly different case:
+\begin{align}
+H_0: p_1 = p_2 \qquad
+H_A: p_1 \neq n_2.
+\end{align}
+This is a slight generalization of the above, but can still be written as a $$K$$ sample test, and is therefore an independence test.
+
+
+#### One Sided Test
+
+Assume $$X \sim \mathcal{N}(\mu,1)$$, and consider the following test:
+\begin{align}
+H_0: \mu = 0 \qquad
+H_A: \mu \neq 0.
+\end{align}
+
+This is a two-sample test, and therefore, an independence test.  A slightly more complicated variant is:
+\begin{align}
+H_0: \mu < 0 \qquad
+H_A: \mu \geq 0.
+\end{align}
+
+Viewing this as an independence test is a bit more complicated.  In particular, if we set it up as the above two-sample test, and we reject, it could be because $$\mu < 0$$ or because $$\mu > 0$$.  However, in practice, it is difficult to address.  Letting our test statistic be $$\bar{x}= \frac{1}{n} \sum_i x_i$$, we consider four scenarios:
+
+1. If $$\bar{x} < 0$$, and we reject, then we know that $$\bar{x}$$ is significantly below $$0$$, and therefore, we should *not* reject the real null.  
+2. If $$\bar{x} < 0$$ and we fail to reject, then we have failed to reject our original hypothesis, and we are ok.
+3. If $$\bar{x} > 0$$, and we reject, meaning that $$\bar{x}$$ is significantly above $$0$$, and therefore we are safe to reject the null.
+4. If $$\bar{x} > 0$$, and we fail to reject, that means $$\bar{x}$$ is not significantly bigger than zero, but we cannot reject the original null.
+
+Thus, we can use the test for whether $$\mu=0$$, probably at a fairly severe reduction in power, but nonetheless, maintain a valid test. 
