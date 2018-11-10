@@ -38,24 +38,12 @@ We describe several different estimates of connectomes spanning the phylogenetic
 
 ![connectomes](/assets/post_images/fig_connectomes.png)
 **Figure 2** Connectomes spanning four levels of the phylogenetic tree, each acquired using different experimental modalities and spatial resolutions, ranging from nanoscale (electron microscopy) to macroscale (MRI regions).  An adjacency matrix of a network shows the strength of connection between any pair of nodes.   The connectomes are depicted as weighted adjacency matrices; for the worm and human, the connectomes are multi-connectomes, with two different edge types, denoted by two different colors. In each case, the nodes are sorted by region.  Moreover, along each connectome we provide the degree sequence, that is, the sum of edge weights for each node. 
-<!-- % @EB: consider adding the following:
-1. update C. elegans with newer data
-2. title of c. elegans should specify herm vs male.
-% 2. adding male c elegans?
-% 3. adding other drosophila dataset?
-% 4. add region labels to x- and y-axes
-% 5. make degree distributions conditional, eg, on type, or hemisphere, etc.?
-% 6. update drosophila to have both left and right (in red and black), and make  both weighted.
-% 7.  update mouse to also include Allan connectivity.
- -->
 
 - **(A) Caenorhabditis elegans**	The  *Caenorhabditis elegans* (C. elegans) is the only animal that we have a complete, neuron-to-neuron level connectome. In the C. elegans connectome, edges are either chemical synapses or gap junctions.  Each edge's strength or weight corresponds to the number of synapses between its parent neurons. There are two sexes of C. elegans, the male and hermaphrodite, with different numbers of neurons (the male has more, most of the neurons are shared between the two sexes, but not all).  These connectome estimates  are derived by cumbersome manual tracing of axons and dendrites, and identification of synapses, in nanoscale electron micrographs, and were updated by  Varshney et al. (2011) and  Bentley (2016). 
 The neurons have multiple kinds of labels, including names, side (left  vs. right  vs. neither) and class  (sensory, internal, and motor). Figure  2(B) shows the hermaphrodite weighted multi-connectome, including both chemical (gray) and electrical (red)  synapses.  Note that chemical synapses are unidirectional, whereas electrical synapses are bidirectional.
 
 - **(B) Drosophila melanogaster**	Eichler et al. (2017) published a complete larval Drosophila connectome of both the left and right mushroom body, also derived from serial electron microscopy, using only chemical synapses. These edges are weighted (based on  counting the  number of synapses between a pair of neurons), and  directed.
 	Neurons are categorized  into  kenyon cells (K), input neurons (I), output neurons (O), and projection neurons (P).  Figure  2(B) shows both the left and right mushroom bodies. Edges are both weighted and directed.
-     <!--@eb: are there loops?  -->
-<!-- %	\item The mouse microscale connectome from the Allen Institute was estimated using light microscopy tracer studies averaging $\approx 1000$ brains \cite{Oh2014}. The nodes of this network are neuroanatomical regions based on the Allen Reference Atlas  ontology. The resulting network is a directed and weighted network,  where the weight from region $u$ to $v$ correspond to the number of fluorescent voxels in region $v$ whose source neurons are in region $u$, normalized by the size of region $u$ (Figure  2(B)). -->
 
 - **(C) Mus musculus**    Calabrese et al. (2015) generated a high-resolution connectivity estimate using ex vivo diffusion magnetic resonance imaging (dMRI).  This network is undirected, as dMRI lacks directional information, and weights correspond to the number of tracts estimated to go from one region to another. Because we do not know the mapping between  the absolute magnitude of  connection weights to any  physical connection, we rescale these weights to be between zero and one, and depict them in Figure  2(C) on a log scale.    Regions in the mouse  connectome can  be  partitioned into ``superstructures'', including frontal (F), hindbrain (H), midbrain (M), and white matter (W).
      
