@@ -120,7 +120,17 @@ h4 {
     color: #318dde;
 }
 
+.post-content {
+    text-align: justify;
+}
 
+.post-list > li {
+    text-align: justify;
+}
+
+.post-list > li h3 {
+    text-align: left;
+}
 
 .site-header {
     background: #4a484c;
