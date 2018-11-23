@@ -77,25 +77,25 @@ An example is the morse code, which is a system of rules that translate tones, l
 
 ## What is the Connectome Code?
 
+
+`A connectome code is system of (potentially stochastic) rules that translate to and from connectomes.`
+
+The above definition begs the question of what a connectome can be translated to or from.   To answer this question we provide an abstract  conceptual model which links brains, bodies, and worlds in a nested set of intertwined spiral loops (see below image). Because this is a mechanistic model, it consists of four components: (1) a phenomenon, (2) parts, (3) causings, and (4) an organization.  
+
 ![brain body world](/assets/post_images/brain-body-world.png)
 *Image Credits: [Julia Kuhl](http://somedonkey.com/) and [Brett Mensh](http://optimizescience.com/)*
 
 
-`A connectome code is system of (potentially stochastic) rules that translate to and from connectomes.`
 
-The above definition begs the question of what a connectome can be translated to or from.   To answer this question we provide an abstract mechanistic model  conceptual model which links brains, bodies, and worlds in a nested set of intertwined spiral loops (see above image). This model is a mechanistic model, and therefore comprises four components: (1) a phenomenon, (2) parts, (3) causings, and (4) an organization.  
-
-
-- *Phenonemon* The phenomenon we aim to explain is how individuals are able to thrive despite the selective pressures of the natural world.  In this context, thrive means to live long enough to pass ones genes to the next generation, and potentially engage in activities to support the development of next generation individuals.
-- *Parts* The parts of this model are nested: worlds contain bodies which contain brains. And brains are composed of both structure (which we think of as basically static) and activity (which we think of as basically dynamic).  In our view, this parts list is collectively exhaustive. In other words, parts that might not usually be thought of as "structure", such as the number of presynaptic vesicles in a given synapse, must be part of structure.  This parallels are previous definition of connectome, which can be much richer than merely a set of connections between nodes. Thus, for simplicity, here we simply define the connectome as all "structure".  Similarly, parts that might not usually be thought of as "function", such as G-protein coupled expression patterns, must be part of activity.  That the line between structure and activity may be blurry at certain resolutions is not a problem in this model.
-- *Causings and Organization* There are three feedback loops in this model, organized into distinct spatiotemporal scales. 
-First, at second rates and subcellular resolutions, the structure provides biophysical statistical rules governing the activity, and the activity results in plasticity which changes the structure.
-Second, at minute rates and organ resolution, the brain directs the body's motor control, which changes the world via behaviors, and is then sensed by the body which directs that information back to the brain. The sensations  include both egocentric  (e.g., proprioception) and allocentric  (e.g., vision) sensory input, which collectively drive subsequent body movements. 
-Third, at lifetimes rates and whole body resolutions, the world--and specifically the niche in which a given animal resides--exterts selective pressures on those behaviors that impact the probability of genes (and other knowledge transfer) are transmitted to the next generation. Those pressures can either increase the "fitness" of the organism survive to the next generation, or decrease the fitness of the organism, and are eliminated.  
-
-
-
-
+- *Phenonemon:* The phenomenon we aim to explain is how individuals are able to thrive despite the selective pressures of the natural world.  In this context, thrive means to live long enough to pass one's genes to the next generation, and potentially engage in activities to support the development of next generation individuals.
+- *Parts:* The parts of this model are nested: worlds contain bodies which contain brains. And brains are composed of both structure (which we think of as basically static) and activity (which we think of as basically dynamic).  In our view, this parts list is collectively exhaustive. In other words, parts that might not usually be thought of as "structure", such as the number of presynaptic vesicles in a given synapse, must be included in structure.  This parallels are previous definition of connectome, which can be much richer than merely a set of connections between nodes. Thus, for simplicity, here we simply define the connectome as all "structure".  Similarly, parts that might not usually be thought of as "function", such as G-protein coupled expression patterns, must be included in activity.  That the line between structure and activity may be blurry at certain resolutions is not a problem in this model.
+- *Causings (or Causal Loops):* There are three feedback loops in this model
+First, the structure provides biophysical statistical rules governing the activity, and the activity results in plasticity which changes the structure.
+Second,  the brain directs the body's motor control, which changes the world via behaviors, and is then sensed by the body which directs that information back to the brain. The sensations  include both egocentric  (e.g., proprioception) and allocentric  (e.g., vision) sensory input, which collectively drive subsequent body movements. 
+Third,  the world--and specifically the niche in which a given animal resides--exterts selective pressures on those behaviors that impact the probability of genes (and other knowledge transfer) are transmitted to the next generation. Those pressures can either increase the "fitness" of the organism survive to the next generation, or decrease the fitness of the organism, and are eliminated.  
+- *Organization*: The three causal loops are organized into nested spatiotemporal scales. The structure/activity causal loop operates at  second rates and subcellular resolutions. 
+The movement/sensation causal loop operates at  minute rates and organ resolution.
+The selective pressure/procreation causal loop operates at lifetimes rates and whole body resolutions.
 Thus, the organisms with relatively successful behaviors get to propagate their genomes to the next generation.  Those genomes provide the blueprint governing development, which starts the cycle all over again.  These intertwined loops do not return to where they started, but rather start in a new (and hopefully improved) place, making them intertwined spirals, also known as helices. 
 
 The implications of the above conceptual model, with respect to connectome coding, is that  **the structure/connectome of the brain is the mechanism by which the genome can encode its preferred behaviors, that, when combined with the body (and physics) yields the desired behaviors with sufficiently high probability to help the organism win the evolutionary game its niche imposes on it.**    In this sense, a genome encodes a connectome (and its dynamics via the rules of plasticity), and a connectome at any given time encodes the probability of various self-driven or responsive behaviors.  There are therefore two kinds of connectome coding rules: 
