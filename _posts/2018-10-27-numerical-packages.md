@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "11 Simples Rules for Releasing Data Science Tools"
+title:  "11 Simple Rules for Releasing Data Science Tools"
 date:   2018-10-21 14:27:57 -0400
 tags:  [10, bits]
 author: Joshua Vogelstein
 ---
 
-These notes were co-written myself, and a number of other people, including [Greg Kiar](http://gkiar.me/), [Eric Bridgeford](http://ericwb.me/), [JB Poline](https://www.mcgill.ca/qls/researchers/jb-poline), and [Tristan Glatard](https://users.encs.concordia.ca/~tglatard/). Inspired by the FAIR Guiding Principles for scientific data management and stewardship (see [here](https://www.nature.com/articles/sdata201618)), we devised the FIRM guidelines for scientific software, specifically numerical packages.  The FIRM guidelines stipulate that anybody in the world should be able to: **F**ind, **I**nstall, **R**un, and **M**odify your code. Below is a working draft of our ideas; as always, your feedback is solicited. 
+These notes were co-written by myself and a number of other people, including [Greg Kiar](http://gkiar.me/), [Eric Bridgeford](http://ericwb.me/), [JB Poline](https://www.mcgill.ca/qls/researchers/jb-poline), and [Tristan Glatard](https://users.encs.concordia.ca/~tglatard/). Inspired by the FAIR Guiding Principles for scientific data management and stewardship (see [here](https://www.nature.com/articles/sdata201618)), we devised the FIRM guidelines for scientific software, specifically numerical packages.  The FIRM guidelines stipulate that anybody in the world should be able to: **F**ind, **I**nstall, **R**un, and **M**odify your code. Below is a working draft of our ideas; as always, your feedback is solicited. 
 
 
 ### Find
@@ -41,7 +41,7 @@ These notes were co-written myself, and a number of other people, including [Gre
     2. bug reports, 
     3. pull requests, and  
     4. feature additions.
-2. Write unit tests for each function, for example, using [testthat](http://testthat.r-lib.org/) for R, or [unittest](https://docs.python.org/3/library/unittest.html) for Python.
+2. Write unit tests for each function. Examples are [testthat](http://testthat.r-lib.org/) for R and [unittest](https://docs.python.org/3/library/unittest.html) for Python.
 3.  Incorporate continuous integration, for example, using either  [TravisCI](https://travis-ci.org/) or  [CircleCI](https://circleci.com/).
 4.  Add the following [badges](https://shields.io/#/) to your repo: 
     9.  DOI. 
