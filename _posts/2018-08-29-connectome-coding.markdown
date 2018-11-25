@@ -6,25 +6,22 @@ tags: [brains, bits]
 author: Joshua Vogelstein
 ---
 
-The following are notes based first on an invited talk I gave at [Baylor](http://dx.doi.org/10.6084/m9.figshare.1140321), and then a [tutorial](https://neurodata.io/talks/sfn17.html) I gave at the Society for Neuroscience in 2017.  More recently, I was asked to write an article for [Current Opinion in Neurobology](https://www.sciencedirect.com/journal/current-opinion-in-neurobiology), which will be based largely on this blog post. This content flowed most recently from conversations with [Brett Mensh](http://optimizescience.com/), [Carey E. Priebe](https://www.ams.jhu.edu/~priebe/), and Eric Bridgeford, who will be co-authors on the resulting manuscript. I presented a slide version of these contents at the [Functional, Structural, and Molecular Imaging, and Big Data Analysis](http://www.sfn.org/-/media/SfN/Documents/NEW-SfN/Careers/2018/Career-Tools-and-Resources/Scientific-Short-Courses/SC2-Agenda-FINAL.pdf?la=en&hash=312E38148FDCC38DFB27811404404E9250BD80C5) Short Course at SfN in 2018.
-
----------------
-
+<!-- need abstract -->
 
 
 The word "connectome" was coined in 2005  by both 
 Professor Olaf Sporns and Dr. Patric Hagmann. 
-They  independently defined the connectome, essentially, as a brain network. Any network  is defined by two sets: a set of nodes (or vertices, or actors), and a set of edges (or arcs, or connections) between those nodes. As of November 2018, a PubMed search reveals >3000 studies mentioning the word "connectome".  The word, and the field, have  evolved significantly  in these past 13 years.  In this opinion piece we introduce and formalize the concept of a `connectome code`, bringing together both historical and contemporary studies of connectomics, and providing a formal statistical paradigm to help guide future studies.  
+They  independently defined the connectome, essentially, as a brain network. Any network  is defined by two sets: a set of nodes (or vertices, or actors), and a set of edges (or arcs, or connections) between those nodes. As of November 2018, a PubMed search reveals >3000 studies mentioning the word "connectome".  The word, and the field, have  evolved significantly  in these past 13 years.  In this opinion piece we introduce and formalize the concept of a *connectome code*, bringing together both historical and contemporary studies of connectomics, and providing a formal statistical paradigm to help guide future studies.  
+
+<!-- To understand any system we define the parts and the interactions. any scientific description contains parts and interactions/causings.  networks are abstractions that explicitly deal with  -->
+
+
+### What is a Connectome?
 
 
 
 
-## What is a Connectome?
-
-
-
-
-`A connectome is a network of a brain, at a particular spatiotemporal precision and extent. The nodes are distinct biophysical entities with three-dimensional morphological boundaries (not necessarily contiguous). The edges are either (1) structural, meaning they are physical morphological objects, or  (2) functional, meaning they characterize the statistical and/or causal relationship between the activity of a pair of nodes. `  
+*A connectome is a network of a brain, at a particular spatiotemporal precision and extent.  The nodes are biophysical entities such as neurons, Brodmann areas, or voxels. The edges are either (1) structural, meaning they are physical  objects, or (2) functional, meaning they characterize the statistical and/or causal relationship between the activity of a pair of nodes.*
 
 The above definition implies that a given brain could have many different connectomes at different times, or at different resolutions, or both.  It also suggests that we measure properties of the brain, and use them  to *estimate* connectomes, and therefore our estimates necessarily are noisy and imperfect. When estimating a connectome, one must choose a construct and a data source for both the nodes and the edges; the data sources could and often are distinct. Both nodes and edges  can be defined  based on anatomy, activity, and/or connectivity. Any such choices impose constraints on the corresponding definitions and resolutions of the elements of the connectome. 
 
@@ -63,22 +60,20 @@ Note that we have not limited the definition of a connectome to be comprehensive
 One final distinction is warranted given previous studies of anatomy and neural circuitry.  Typically, anatomical studies do not include studying connections between nodes, rather, they focus on the properties of each individual node.  That said, connectomics, as mentioned above, requires some aspect of anatomy to define its nodes.  Therefore, while all anatomical studies are not connectomics, all connectomics studies include anatomy.  Similarly, it is not the case that all studies of neural circuitry are connectomics.  In typical neural circuit investigations, the nodes are not distinct morpholical objects, rather, they are abstractions, such as "all pyramidal cells in layer 4". In this sense, not all studies of neural circuitry are connectomics, however, any study of connectomes may hope to reveal statistical principles that govern neural circuits.  For example, studies on the somatic ganglion circuit of a crab, or the sound localization circuit of a barn owl were not  connectomics.  However, one could imagine a connectomics study of the same circuitry would reveal the same underlying principles.  
 
 
-## What is a Code?
+### What is a Code?
 
 
+*A code is a system of (potentially stochastic) rules that translate from one representation of information into another.*
 
-`
-A code is a system of (potentially stochastic) rules that translate from one representation of information into another.  
-`
 
 An example is the morse code, which is a system of rules that translate tones, lights, or clicks to alphanumeric characters. The morse code happens to be deterministic and "one-to-one" meaning that each sequence of beeps tranlate into a single character, and vice versa.   The genetic code translates nucleotide triplets into amino acids.  The genetic code is also deterministic, but it is not one-to-one, because multiple triplets encode the same nucleotide.  The neural code translates between neural activity (typically spiking activity) and sensory input or motor output.  This code is probabilistic, meaning that many different patterns of activity can encode the same stimulus or behavior, and a stimulus or behavior can elicit many different neural activity patterns. We are interested here in a different kind of code, which probabilistic governs connectomes. 
 
 
 
-## What is the Connectome Code?
+### What is the Connectome Code?
 
 
-`A connectome code is system of (potentially stochastic) rules that translate to and from connectomes.`
+*A connectome code is system of (potentially stochastic) rules that translate to and from connectomes.*
 
 The above definition begs the question of what a connectome can be translated to or from.   To answer this question we provide an abstract  conceptual model which links brains, bodies, and worlds in a nested set of intertwined spiral loops (see below image). Because this is a mechanistic model, it consists of four components: (1) a phenomenon, (2) parts, (3) causings, and (4) an organization.  
 
@@ -86,7 +81,7 @@ The above definition begs the question of what a connectome can be translated to
 *Image Credits: [Julia Kuhl](http://somedonkey.com/) and [Brett Mensh](http://optimizescience.com/)*
 
 
-
+<!-- parts must also contain "genome" -->
 - *Phenonemon:* The phenomenon we aim to explain is how individuals are able to thrive despite the selective pressures of the natural world.  In this context, thrive means to live long enough to pass one's genes to the next generation, and potentially engage in activities to support the development of next generation individuals.
 - *Parts:* The parts of this model are nested: worlds contain bodies which contain brains. And brains are composed of both structure (which we think of as basically static) and activity (which we think of as basically dynamic).  In our view, this parts list is collectively exhaustive. In other words, parts that might not usually be thought of as "structure", such as the number of presynaptic vesicles in a given synapse, must be included in structure.  This parallels are previous definition of connectome, which can be much richer than merely a set of connections between nodes. Thus, for simplicity, here we simply define the connectome as all "structure".  Similarly, parts that might not usually be thought of as "function", such as G-protein coupled expression patterns, must be included in activity.  That the line between structure and activity may be blurry at certain resolutions is not a problem in this model.
 - *Causings (or Causal Loops):* There are three feedback loops in this model
@@ -125,3 +120,8 @@ The above probabilistic description does not incorporate the concept of causalit
 
 
 This view of connectomes, and connectome coding, is, to our knowledge, essentially novel.  That said, it is a conceptual and formal model that one can use to interpret any previous study of connectomics.  Perhaps more important, we hope it will help guide the development and ideation of new connectomic studies, by providing a paradigm within which to ask, formalize, and eventually questions about neural circuit mechanisms, how they work, how they fail, and how they can be improved.  
+
+---------------
+
+The above notes are based  on an invited talk I gave at [Baylor](http://dx.doi.org/10.6084/m9.figshare.1140321), and then a [tutorial](https://neurodata.io/talks/sfn17.html) I gave at the Society for Neuroscience in 2017.  More recently, I was asked to write an article for [Current Opinion in Neurobology](https://www.sciencedirect.com/journal/current-opinion-in-neurobiology), which will be based largely on this blog post. This content flowed most recently from conversations with [Brett Mensh](http://optimizescience.com/), [Carey E. Priebe](https://www.ams.jhu.edu/~priebe/), and Eric Bridgeford, who will be co-authors on the resulting manuscript. I presented a slide version of these contents at the [Functional, Structural, and Molecular Imaging, and Big Data Analysis](http://www.sfn.org/-/media/SfN/Documents/NEW-SfN/Careers/2018/Career-Tools-and-Resources/Scientific-Short-Courses/SC2-Agenda-FINAL.pdf?la=en&hash=312E38148FDCC38DFB27811404404E9250BD80C5) Short Course at SfN in 2018.
+
