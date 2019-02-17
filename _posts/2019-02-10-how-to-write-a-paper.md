@@ -12,11 +12,13 @@ Upon believing that you have completed work sufficient to write a peer reviewed 
 
 2. Describe the "killer fig" that makes the point as clearly and concisely as possible.  Guidance for making paper quality figures is [here](https://bitsandbrains.io/2018/09/08/figures.html).  (~5 min)
 
-3. Describe the other results, typically 3-5 additional figures or theorems.  The goal of each of these is to support the main claim, for example, by further refining, adding controls, etc.  Ideally, they are sequenced together in a logical chain, like a proof, each building on the next, to tell the story. (~5 min)
+3. Describe the other results, typically 3-5 additional figures or theorems.  The goal of each of these is to support the main claim, for example, by further refining, adding controls, etc.  Ideally, they are sequenced together in a logical chain, like a proof, each building on the next, to tell the story. (~1 hr)
 
 4. Make a first draft of all the figures and tables with detailed captions (~ 1 week).  Captions should each be about a paragraph long.  At this point, the figures need not be "camera ready", but should have all the main points made.  
 
-5. Get feedback on figures.  Show the figures to your colleagues who are not co-authors on your paper, do not show them the captions, and ask them to tell you what the main point of each figure is.  If they don't get it right on their first try, interupt them, and ask them to go to the next figure.  Then, spend another week updating the figures, and repeat. 
+5. Get feedback on figures (~1 week).  Show the figures to your colleagues who are not co-authors on your paper, do not show them the captions, and ask them to tell you what the main point of each figure is.  If they don't get it right on their first try, interupt them, and ask them to go to the next figure.  Then, spend another week updating the figures, and repeat. 
+
+6. Make all the figures and captions "camera ready" (~1 week).  Consult [this]([here](https://bitsandbrains.io/2018/09/08/figures.html)) to confirm that they are
 
 6. Write a one paragraph summary (will become your **abstract**;  ~30 min)
     1. big opportunity sentence: what is the grandest opportunity that this work is addressing?
@@ -37,19 +39,19 @@ Upon believing that you have completed work sufficient to write a peer reviewed 
 
 8. Outline the methods and results: this is a 1 sentence summary of every point  in [methods_paper](https://github.com/neurodata/checklists/blob/master/methods_paper.md) (~20 min)
 
-9. Fill in the details of the methods and results (~ 1 week).
+9.  Fill in the details of the methods and results (~ 1 week).
 
-10. outline of discussion (~1 hr), to include (not a summary)
+10. Write  discussion (~1 hr), to include (not a summary)
     1. bulleted list of previous related work (~20 min)
     2. bulleted list of potential extensions (~20 min)
 
-11. Fill in details of discussion.
+11. Update abstract and introduction to final pre-feedback draft on text (~1 day).
+11. Get lots of feedback from >1 person who is in the community of potential readers of your published manuscript.  Ask them to read it as if they are reviewing it for a journal, and to hold nothing back. Ask them to give you comments in one week.  You are not beholden to them, but taking their criticism seriously and making improvements to the manuscript on their basis would be wise. 
 
-11. get lots of feedback (~1 wk)
-12. finalize draft figures (~1 wk)
-13. finalize draft text (~1 wk)
-14. get lots of feedback (~1 wk)
-15. finalize manuscript (~1 wk)
+12. Revise manuscript addressing each and every one of their concerns (~1 week).  This does not necessarily mean making new figures, rather, it might mean clarifying various points of confusion.
+
+13. Do another round of feedback, give them another week.
+14. Finalize manuscript (~1 wk).
 
 
 If you follow the above plan, you will have a manuscript ready to submit 2 months after you start writing.  
