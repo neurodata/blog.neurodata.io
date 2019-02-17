@@ -6,7 +6,7 @@ tags:  [writing]
 author: Joshua Vogelstein
 ---
 
-Upon believing that you have completed work sufficient to write a peer reviewed manuscript, follow the below steps in order. If you are simply writing an abstract, just do 1 and 6.
+Upon believing that you have completed work sufficient to write a peer reviewed manuscript, follow the below steps in order. If you are simply writing an abstract, just do 1 and 7.
 
 1. Write a one sentence summary of your work (will become your **title**;  ~5 min). This sentences describes the main take home message / main result.  It should not have any words that most of your readership will not be familiar with.  It should be attention grabby, it should have less than 88 characters.
 
