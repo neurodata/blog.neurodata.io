@@ -6,7 +6,7 @@ tags:  [writing]
 author: Joshua Vogelstein
 ---
 
-Upon believing that you have completed work sufficient to write a peer reviewed manuscript, follow the below steps in order. If you are simply writing an abstract, stop after step 2.
+Upon believing that you have completed work sufficient to write a peer reviewed manuscript, follow the below steps in order. If you are simply writing an abstract, just do 1 and 6.
 
 1. Write a one sentence summary of your work (will become your **title**;  ~5 min). This sentences describes the main take home message / main result.  It should not have any words that most of your readership will not be familiar with.  It should be attention grabby, it should have less than 88 characters.
 
@@ -20,13 +20,13 @@ Upon believing that you have completed work sufficient to write a peer reviewed 
 
 6. Make all the figures and captions "camera ready" (~1 week).  Consult [this]([here](https://bitsandbrains.io/2018/09/08/figures.html)) to confirm that they are
 
-6. Write a one paragraph summary (will become your **abstract**;  ~30 min)
-    1. big opportunity sentence: what is the grandest opportunity that this work is addressing?
-    2. specific opportunity: what opportuntity specifically will this manuscript address?
-    3. challenge sentence: what is hard about addressing this opportunity?
-    4. gap sentence: what is currently missing?
-    5. action sentence: what did you do to address the gap, overcome the challenge, and therefore meet the opportunity? it should provide the *key* intuition/insight, the magic that makes this work, where others failed.
-    6. resolution sentence: what changes for the reader now that you have met this challenge? 
+6. Write a one paragraph summary (will become your **abstract**;  ~30 min).  This will be about 250 - 300 words, more than 500 words is a page, not an abstract.  To include:
+    1. Big opportunity sentence: what is the grandest opportunity that this work is addressing?
+    2. Specific opportunity: what opportuntity specifically will this manuscript address?
+    3. Challenge sentence: what is hard about addressing this opportunity?
+    4. Gap sentence: what is currently missing?
+    5. Action sentence: what did you do to address the gap, overcome the challenge, and therefore meet the opportunity? it should provide the *key* intuition/insight, the magic that makes this work, where others failed.
+    6. Resolution sentence: what changes for the reader now that you have met this challenge? 
 
 
 7. Write a five paragraph **intro** (~1 hr).   This will be structured as follows:
