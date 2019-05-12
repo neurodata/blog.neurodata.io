@@ -1,12 +1,28 @@
 ---
 layout: post
-title:  "How to Write an Scientific Abstract/Introduction/Paper"
+title:  "10 Simple Rules to Write a Paper from Start to Finish"
 date:   2019-02-10 14:27:57 -0400
 tags:  [writing]
 author: Joshua Vogelstein
 ---
 
-Upon believing that you have completed work sufficient to write a peer reviewed manuscript, follow the below steps in order. If you are simply writing an abstract, just do 1 and 7.
+**tl;dr** 
+
+1. make figures, check that they follow [figure guidelines](https://bitsandbrains.io/2018/09/08/figures.html)
+1. read [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619), and write paper accordingly
+2. check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html)
+3. check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html)
+4. send to co-authors for review & detailed critical feedback
+5. revise and submit
+
+
+*********************
+
+
+
+Upon believing that you have completed work sufficient to write a peer reviewed manuscript, follow the below steps in order. If you are simply writing an abstract, just do the section entitled "Outline and Abstract"
+
+#### Outline and Abstract
 
 1. Write a one sentence summary of your work (will become your **title**;  ~5 min). This sentences describes the main take home message / main result.  It should not have any words that most of your readership will not be familiar with.  It should be attention grabby, it should have less than 88 characters.
 
@@ -14,13 +30,8 @@ Upon believing that you have completed work sufficient to write a peer reviewed 
 
 3. Describe the other results, typically 3-5 additional figures or theorems.  The goal of each of these is to support the main claim, for example, by further refining, adding controls, etc.  Ideally, they are sequenced together in a logical chain, like a proof, each building on the next, to tell the story. (~1 hr)
 
-4. Make a first draft of all the figures and tables with detailed captions (~ 1 week).  Captions should each be about a paragraph long.  At this point, the figures need not be "camera ready", but should have all the main points made.  
 
-5. Get feedback on figures (~1 week).  Show the figures to your colleagues who are not co-authors on your paper, do not show them the captions, and ask them to tell you what the main point of each figure is.  If they don't get it right on their first try, interupt them, and ask them to go to the next figure.  Then, spend another week updating the figures, and repeat. 
-
-6. Make all the figures and captions "camera ready" (~1 week).  Consult [this]([here](https://bitsandbrains.io/2018/09/08/figures.html)) to confirm that they are
-
-6. Write a one paragraph summary (will become your **abstract**;  ~30 min).  This will be about 250 - 300 words, more than 500 words is a page, not an abstract.  To include:
+7. Write a one paragraph summary (will become your **abstract**;  ~30 min).  This will be about 250 - 300 words, more than 500 words is a page, not an abstract.  To include:
     1. Big opportunity sentence: what is the grandest opportunity that this work is addressing?
     2. Specific opportunity: what opportuntity specifically will this manuscript address?
     3. Challenge sentence: what is hard about addressing this opportunity?
@@ -29,7 +40,25 @@ Upon believing that you have completed work sufficient to write a peer reviewed 
     6. Resolution sentence: what changes for the reader now that you have met this challenge? 
 
 
-7. Write a five paragraph **intro** (~1 hr).   This will be structured as follows:
+Get feedback!
+
+### Figure Drafts
+
+4. Make a first draft of all the figures and tables with detailed captions (~ 1 week).  Captions should each be about a paragraph long.  At this point, the figures need not be "camera ready", but should have all the main points made.  
+
+5. Get feedback on figures (~1 week).  Show the figures to your colleagues who are not co-authors on your paper, do not show them the captions, and ask them to tell you what the main point of each figure is.  If they don't get it right on their first try, interrupt them, and ask them to go to the next figure.  Then, spend another week updating the figures, and repeat. 
+
+
+Get feedback!
+
+
+### First Complete Draft
+
+
+6. Make all the figures and captions "camera ready" (~1 week).  Consult this [figure checklist]([here](https://bitsandbrains.io/2018/09/08/figures.html)) to confirm that they are.
+
+
+8. Write a five paragraph **intro** (~1 hr).   This will be structured as follows:
     1. bulleted list of  ~3-5 main factors that create an opportunity for your work, filtering from most general to most specific, and not including anything ancillary (~20 min) 
     2. bulleted list of the ~3-5 main challenges that must be overcome (~20 min)
     3. 1 sentence summary of the **gap**, that is, the key ingredient that is missing (~5 min)
@@ -37,21 +66,29 @@ Upon believing that you have completed work sufficient to write a peer reviewed 
     5. 2-3 sentence summary on how your work changes the world (~5 min)
 
 
-8. Outline the methods and results: this is a 1 sentence summary of every point  in [methods_paper](https://github.com/neurodata/checklists/blob/master/methods_paper.md) (~20 min)
+9. Outline the methods and results: this is a 1 sentence summary of every point  in [methods_paper](https://github.com/neurodata/checklists/blob/master/methods_paper.md) (~20 min)
 
-9.  Fill in the details of the methods and results (~ 1 week).
+10. Fill in the details of the methods and results (~ 1 week).
 
-10. Write  discussion (~1 hr), to include (not a summary)
+11. Write  discussion (~1 hr), to include (not a summary)
     1. bulleted list of previous related work (~20 min)
     2. bulleted list of potential extensions (~20 min)
 
-11. Update abstract and introduction to final pre-feedback draft on text (~1 day).
-11. Get lots of feedback from >1 person who is in the community of potential readers of your published manuscript.  Ask them to read it as if they are reviewing it for a journal, and to hold nothing back. Ask them to give you comments in one week.  You are not beholden to them, but taking their criticism seriously and making improvements to the manuscript on their basis would be wise. 
+2. check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html)
 
-12. Revise manuscript addressing each and every one of their concerns (~1 week).  This does not necessarily mean making new figures, rather, it might mean clarifying various points of confusion.
+3. check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html)
 
-13. Do another round of feedback, give them another week.
-14. Finalize manuscript (~1 wk).
+
+### Revision Iterations
+
+12. Update abstract and introduction to final pre-feedback draft on text (~1 day).
+
+13. Get lots of feedback from >1 person who is in the community of potential readers of your published manuscript.  Ask them to read it as if they are reviewing it for a journal, and to hold nothing back. Ask them to give you comments in one week.  You are not beholden to them, but taking their criticism seriously and making improvements to the manuscript on their basis would be wise. 
+
+14. Revise manuscript addressing each and every one of their concerns (~1 week).  This does not necessarily mean making new figures, rather, it might mean clarifying various points of confusion.
+
+15. Do another round of feedback, give them another week.
+16. Finalize manuscript (~1 wk).
 
 
 If you follow the above plan, you will have a manuscript ready to submit 2 months after you start writing.  
