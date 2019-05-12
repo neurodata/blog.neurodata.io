@@ -72,15 +72,15 @@ Upon believing that you have completed work sufficient to write a peer reviewed 
        2. bulleted list of potential extensions (~20 min)
 
 
-1. **paragraphs** check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html)
+1. **Paragraphs** check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html)
 
-3. **words** check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html)
+3. **Words** check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html)
 
 
 
-3.  **feedback** Get lots of feedback from >1 person who is in the community of potential readers of your published manuscript.  Ask them to read it as if they are reviewing it for a journal, and to hold nothing back. Ask them to give you comments in one week.  You are not beholden to them, but taking their criticism seriously and making improvements to the manuscript on their basis would be wise. 
+3.  **Feedback** Get lots of feedback from >1 person who is in the community of potential readers of your published manuscript.  Ask them to read it as if they are reviewing it for a journal, and to hold nothing back. Ask them to give you comments in one week.  You are not beholden to them, but taking their criticism seriously and making improvements to the manuscript on their basis would be wise. 
 
-2.  **revision** 
+2.  **Revision** 
 
     1.  Update abstract and introduction to final pre-feedback draft on text (~1 day).
     2.  Revise manuscript addressing each and every one of their concerns (~1 week).  This does not necessarily mean making new figures, rather, it might mean clarifying various points of confusion.
