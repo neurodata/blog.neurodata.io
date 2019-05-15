@@ -12,7 +12,7 @@ author: Joshua Vogelstein
 2. **outline** write title, abstract, and outline based on [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619)
 3. **figures** make the remaining figures, check that they follow [figure guidelines](https://bitsandbrains.io/2018/09/08/figures.html)
 4. **draft** flesh out details of paper. 
-5. **references**
+5. **references** add them
 6. **paragraphs** check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html)
 7. **words** check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html)
 8. **feedback** send to co-authors for review & detailed critical feedback
