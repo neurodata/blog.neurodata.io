@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "10 Simple Rules to Write a Paper from Start to Finish"
+title:  "9 Simple Rules to Write a Paper from Start to Finish"
 date:   2019-02-10 14:27:57 -0400
 tags:  [writing]
 author: Joshua Vogelstein
@@ -12,12 +12,11 @@ author: Joshua Vogelstein
 2. **outline** write title, abstract, and outline based on [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619)
 3. **figures** make the remaining figures, check that they follow [figure guidelines](https://bitsandbrains.io/2018/09/08/figures.html)
 4. **draft** flesh out details of paper. 
-5. **references** add them
-6. **paragraphs** check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html)
-7. **words** check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html)
-8. **feedback** send to co-authors for review & detailed critical feedback
-9. **revision** revise 
-10. **submission** post to arxiv and submit to journal
+5. **references** add them and check that they are right
+6. **wordsmithing** check  [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html), [words guidelines](https://bitsandbrains.io/2018/10/14/words.html), and remove redundant works
+7. **feedback** send to co-authors for review & detailed critical feedback
+8.  **revision** revise 
+9.  **submission** post to arxiv, submit to journal, tweet to world
 
 *********************
 
@@ -74,13 +73,12 @@ Upon believing that you have completed work sufficient to write a peer reviewed 
 
 1. **References** make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is.
 
-1. **Paragraphs** check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html)
+1. **wordsmithing**
+   1. **Paragraphs** check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html).
+   2. **Words** check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html).
+   3. **shorten** read the paper carefully, and remove any words that are unnecessary. 
 
-3. **Words** check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html)
-
-
-
-3.  **Feedback** Get lots of feedback from >1 person who is in the community of potential readers of your published manuscript.  Ask them to read it as if they are reviewing it for a journal, and to hold nothing back. Ask them to give you comments in one week.  You are not beholden to them, but taking their criticism seriously and making improvements to the manuscript on their basis would be wise. 
+4.  **Feedback** Get lots of feedback from >1 person who is in the community of potential readers of your published manuscript.  Ask them to read it as if they are reviewing it for a journal, and to hold nothing back. Ask them to give you comments in one week.  You are not beholden to them, but taking their criticism seriously and making improvements to the manuscript on their basis would be wise. 
 
 2.  **Revision** 
 
