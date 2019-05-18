@@ -56,11 +56,9 @@ These notes were co-written by myself and a number of other people, including [G
 
 
 A few examples of numerical packages that we have released that satisfy all (or most of) these rules include:
-- [ndmg](https://github.com/neurodata/ndmg)
-- [lumberjack](https://github.com/neurodata/lumberjack)
+- [graspy](https://github.com/neurodata/graspy)
 - [mgc](https://github.com/neurodata/mgc)
+- [Randomer Forest](https://github.com/neurodata/rerF/)
+- [ndmg](https://github.com/neurodata/ndmg)
 - [LOL](https://github.com/neurodata/LOL)
 - [ndreg](https://github.com/neurodata/ndreg)
-- [knor](https://github.com/neurodata/knorR)
-- [boutiques](https://github.com/boutiques/boutiques)
-- [clowdr](https://github.com/gkiar/clowdr)
