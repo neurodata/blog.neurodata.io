@@ -37,7 +37,7 @@ These notes were co-written by myself and a number of other people, including [G
 ### Modify
 
 1. Include contribution guidelines, including: 
-    1. style guidelines ([Google's](https://google.github.io/styleguide/Rguide.xml) or [Hadley's](http://adv-r.had.co.nz/Style.html) for R, or [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python, 
+    1. style guidelines ([Google's](https://google.github.io/styleguide/Rguide.xml) or [Hadley's](http://adv-r.had.co.nz/Style.html) for R, or [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python)
     2. bug reports, 
     3. pull requests, and  
     4. feature additions.
