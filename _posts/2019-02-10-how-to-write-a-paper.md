@@ -54,7 +54,7 @@ Upon believing that you have completed work sufficient to write a peer reviewed 
 
 1. **Draft** 
 
-   1. Make all the figures and captions "camera ready" (~1 week).  Consult this [figure checklist]([here](https://bitsandbrains.io/2018/09/08/figures.html)) to confirm that they are.
+   1. Make all the figures and captions "camera ready" (~1 week).  Consult this [figure checklist](https://bitsandbrains.io/2018/09/08/figures.html) to confirm that they are.
 
     2. Write a five paragraph **intro** (~1 hr).   This will be structured as follows:
        1. bulleted list of  ~3-5 main factors that create an opportunity for your work, filtering from most general to most specific, and not including anything ancillary (~20 min) 
