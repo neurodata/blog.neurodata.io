@@ -16,16 +16,16 @@ For example, the human cortex is bilaterally symmetric. This is despite the fact
 In other words, if one were to quantify the degree of differences between the two sides, bilateral symmetry only requires that the difference between the two sides is less than some threshold.  Where one puts the threshold is a subjective matter.  
 
 Bilateral homology is a relatively new concept.  For now, we say that two biological structures are bilaterally homologous if, under "normal" environmental conditions, the degree of bilateral symmetric is $c$, 
-and under certain perturbations of the conditions, the degree of bilateral symmetry is $c'$, and $c' > c$. Which means that, by definition, any "normal" connectome cannot exhibit bilateral homology.
+and under certain perturbations of the conditions, the degree of bilateral symmetry is $$c'$$, and $$c' > c$$. Which means that, by definition, any "normal" connectome cannot exhibit bilateral homology.
 
-To be a bit more concrete, for a particular individual, we observe $n$ points from one side, $x_1,\ldots, x_n$, and $m$ points from the other side, $y_1,\ldots, y_m$. 
+To be a bit more concrete, for a particular individual, we observe $n$ points from one side, $$x_1,\ldots, x_n$$, and $m$ points from the other side, $y_1,\ldots, y_m$. 
 Assume that each observation is sampled independently from the others, and that those from the first side are sampled from some true but unknown distribution $F$, and those from the other side are sampled from some  true but unknown distribution $G$.  We can then posit a formal hypothesis test:
 
 $$H0: F = G, \qquad  HA: F \neq G$$
 
 Implementing this test requires choosing a test statistic 
 
-$$t=t( x_1,...,x_n, y_1,..., y_m) \in Real,$$
+$$t=t( x_1,...,x_n, y_1,..., y_m) \in \mathcal{Real},$$
 
 and we reject bilateral homology if and only if the observed $t$ is more extreme than $(1 - \alpha)\%$ of the time under the null.
 
