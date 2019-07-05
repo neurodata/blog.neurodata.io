@@ -6,16 +6,21 @@ tags:  [collaboration]
 author: Joshua Vogelstein
 ---
 
-I recently was asked a few questions on this topic, and thought I'd share my answers.  If anybody has contrary opinions, I'd love to know about them.
+I recently was asked a few questions on this topic, and thought I'd share my answers.  I did, tweeted it, and then updated this post based on public and private responses.  For the twitter discussion, including contributors, please see [here](https://twitter.com/neuro_data/status/1146830916863631361).  I'm grateful to everyone who has contributed to this dialog. If anybody has contrary opinions, I'd love to know about them.
 
 What do effective biologist/data scientist teams look like?
 
-Successful teams have the following properties:
+While I'm sure there are many different flavors of succesful teams, *we* have been most succesful when team  have the following properties:
 
 1. A relatively concrete biological question, with a careful experimental design.  Good data scientists can find patterns in anything, but not all patterns are scientifically interesting.  
 2. The data scientist is integrated into the scientific process as early as possible.  For example, there are often choices the experimentalist could make that would result in much easier or more difficult challenges for the data scientist. Only by virtue of the data scientist being engaged before the data are collected is it even possible for them to provide input into these decisions.  
-3. Both the data scientist and the neurobiologist have deep respect for the other's time and expertise. In particular, both realize that the challenges the other faces are difficult to overcome, and may take time.  At the same time, both realize that they are working to answer a particular question, rather than solve some "generic" problem.  For example, the data scientist must develop an algorithm that detects cell bodies with sufficiently high sensitivity and specificity to answer the particular neurobiological question of interest, rather than "the best cell body detection method ever".  
+3. Both the data scientist and the neurobiologist have deep respect for the other's time and expertise. In particular, both realize that the challenges the other faces are difficult to overcome, and may take time.  At the same time, both realize that they are working to answer a particular question, rather than solve some "generic" problem.  For example, the data scientist must develop an algorithm that detects cell bodies with sufficiently high sensitivity and specificity to answer the particular neurobiological question of interest, rather than "the best cell body detection method ever".  This may require either or both individuals to go outside their comfort zones at time for the success of the project. 
 4. If novelty and complexity are not required for the methods, even if such properties would be sexy, neither party insists on pursuing such approaches, which can be quite time consuming and typically not a dramatic improvement on existing technology. 
+5. Often making authorship agreements up front can avoid future clashes.  One workable approach is a single manuscript approach, with  first-author and corresponding-author rights shared by both labs.  Another reasonable approach is a two-manuscipt approach, with one manuscript describing the data science technique, and another describing the biology.  A potential downside to this approach is that often the data science technique does not have a natural "peer reviewed" home, because it is a "trivial" extension of previous work. That is not to say that it did not require a Herculean amount of work to get it working sufficiently well, but rather, that many stats/AI/ML peer-reviewed venues do not highly value this kind of work.  
+
+
+One caveat to the above, is that it assumed a legitimate collaboration.  Sometimes, the biologists simply needs a consultant, to check their work, suggest a complementary strategy, etc.  Those can often be quite fruitful for the biologist, although the data scientist rarely gets any "academic credit" for such efforts.  On the other hand, for serious collaborations, getting the data scientist up to speed on the biology can often take quite some time, for example one to two years even.  Doing so is a considerable energetic investment for all parties involved.  In these cases, it can be advantageious for everyone if there are smaller "wins" in the interm period that indicate to all parties that continued investment is likely worthwhile. 
+
 
  
 How deeply are they integrated?
