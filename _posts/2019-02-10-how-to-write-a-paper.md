@@ -9,17 +9,18 @@ author: Joshua Vogelstein
 
 
 1. **Learn how to write** by reading [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) and [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241).
-1. **main result** write draft paper title and  draft killer fig that visually makes the main point of your story
-2. **outline** write title, abstract, and outline based on 
-3. **figures** make the remaining figures, check that they follow [figure guidelines](https://bitsandbrains.io/2018/09/08/figures.html)
-5. **Outline** generate a 1 sentence per paragraph outline
-4. **Draft** flesh out details of paper. 
-5. **References** add them and check that they are right
+1. **Main result** write draft paper title and  draft killer fig that visually makes the main point of your story
+2. **Abstract** write title and abstract based on OCAR story structure (described in [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241))
+3. **Figures** draft the remaining figures
+4. **Outline** generate a 1 sentence per paragraph outline
+5. **Venue** choose the publication venue
+6. **Draft** flesh out details of paper. 
+<!-- 7. **References** add them and check that they are right -->
 <!-- 6. **wordsmithing** check  [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html), [words guidelines](https://bitsandbrains.io/2018/10/14/words.html), and remove redundant works -->
 <!-- 7. **feedback** send to co-authors for review & detailed critical feedback -->
-8.  **revision** revise 
-9.  **submission** post to arxiv, submit to journal, tweet to world
-10. **respond** respond to reviewers
+8.  **Revision** revise 
+9.  **Submission** post to arxiv, submit to journal, tweet to world
+10. **Rebuttal** respond to reviewers
 
 *********************
 
@@ -27,7 +28,7 @@ author: Joshua Vogelstein
 Upon believing that you have completed work sufficient to write a peer reviewed manuscript, follow the below steps in order. If you are simply writing an abstract (for a conference, for example), just do the section entitled "Outline and Abstract"
 
 1. **Learn how to write**
-Before you write any paper ever, I recommend reading  [How to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619). I also recommend reading [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241), if care about writing clear compelling stories.  You only need to do this once ever, not once per paper. Once you've read these things, follow these steps:
+Before you write any paper, I recommend reading  [How to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619). I also recommend reading [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241), if care about writing clear compelling stories.  You only need to do this once ever, not once per paper. Once you've read these things, follow these steps:
 
 
 1. **Main Result** 
@@ -37,7 +38,7 @@ Before you write any paper ever, I recommend reading  [How to structure a paper]
    3. Get feedback from your PI and other principle authors.  If the author list is unclear, send this summary and figure to everyone you think might believe they deserve to be authors on the manuscript, and invite them to be co-authors.  Tell them that if they agree (by responding to you and the corresponding author), they can expect to get emails from you with updates, each of which will request feedback.  And if they provide feedback, it will be carefully considered.  Explain to them that the goal of feedback at this particular stage is that you'd like to know what they gathered was the main point of your paper, based on reading the title and looking at the killer fig (without sending them the caption).  If they don't get it exactly right, iterate until they do (don't tell them the answer, just update the title/figure). 
 
 
-2. **Outline and Abstract** 
+2. **Abstract** 
    
    1. Describe the other results, typically 3-5 additional figures or theorems.  The goal of each of these is to support the main claim, for example, by further refining, adding controls, etc.  Ideally, they are sequenced together in a logical chain, like a proof, each building on the next, to tell the story. (~1 hr)
    2. Write a one paragraph summary (will become your **abstract**;  ~30 min).  This will be about 250 - 300 words, more than 500 words is a page, not an abstract.  To include:
@@ -67,48 +68,63 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
        4. 2-3 sentence summary of what you did (~5 min)
        5. 2-3 sentence summary on how your work changes the world (~5 min)
 
-    2. Outline the methods and results: this is a 1 sentence summary of every point  in [methods_paper](https://github.com/neurodata/checklists/blob/master/methods_paper.md) (~20 min)
+    2. Outline the methods.  (~20 min)
 
-   2. Fill in the details of the methods and results (~ 1 week). Allow for at least one paragraph per figure, table, and/or theorem.  These paragraphs follow the following form: 
-      1. a sentence describing the setting.  
-      2. A few sentences providing additional details.  
-      3. A concluding sentence providing the take home summary.
+   2. Outline the results results (~20 min). Allow for at least one paragraph per figure, table, and/or theorem.  These paragraphs follow the following form (no need for them to be proper "paragraphs" at this point): 
+      1. a sentence describing the setting,
+      2. a few sentences providing additional details, and
+      3. a concluding sentence providing the take home summary.
 
    3. Outline the  discussion (~1 hr), to include (not a summary)
        1. bulleted list of previous related work (~20 min)
        2. bulleted list of potential extensions (~20 min)
    4. Get feedback from your co-authors.  At this stage, the question is whether the logic is sound, meaing, based on the challenge you proposed, the sequence of results provides compelling evidence that you've satisfactorily addressed it. If they disagree, iterate until there is agreement.
 
-5. **Draft** 
+5. **Venue**
 
-   1. Expand the outline into a full draft. 
-   2. **Paragraphs** check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html).
-   3. **Words** check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html).
-   4. **shorten** read the paper carefully, and remove any words that are unnecessary. 
+    2. Read the top 3-5 most cited/downloaded articles from each potential venue to submit to, to see what the readership of that community likes.  This will help you both choose the appropriate venue, and write effectively for that venue.  
+    1. Choose the actual journal/conference you will be submitting to.  Until this point, it is irrelevant, since you've only been focusing on the logical structure of your story.  However, before you start writing, you want to make sure you are writing for a particular target audience, and write for them.  This is because different venues have different expectations, which you'd like to meet.
+    1. Note the structure and approximate length of the venue of choice for the top articles published there.  Do *not* worry about length at this time, just note down how many pages and figures they have, if they have an explicit methods section, if they have a preferred outline structure. 
+
+6. **Draft** 
+
+   1. Expand the outline into a full draft. Do *not* concern yourself at this point with the details of what the publisher wants, we will deal with that later.  The point of this is to simply have a draft *at all*.  
+   2. Check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html).
+   3. Check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html).
+   4. Read the paper carefully outloud, and remove any words that are unnecessary. 
    5. Make sure each display item (e.g., figure, table, or theorem) is enumerated and explicitly refered to in the main text.  If you are using LaTeX, use `\ref{fig:<informative_name>}` to refer to each display item. Recall that when referring to sections or figures, etc., the name of the section/figure is a proper noun, and is therefore capitalized. 
-   6. Read it outloud to catch any typo's/thoughto's.  
-   
-
-6.  **References** 
-    1.  Make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing.
-    2. Get feedback again, ideally from a professional editor.  At this stage, feedback on logic/etc. is no longer appropriate, so be clear when asking for feedback that you are asking for feedback whether the individual sentences/paragraphs are clear, and random grammar/spelling mistakes.  The opportunity to provide feedback on logic has passed.  
+   6.  Make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing.
+   7. Get feedback again, ideally from a professional editor.  At this stage, feedback on logic/etc. is no longer appropriate, so be clear when asking for feedback that you are asking for feedback whether the individual sentences/paragraphs are clear, and random grammar/spelling mistakes.  The opportunity to provide feedback on logic has passed.  
 
 7.  **Revision** 
 
-    1.  Update abstract and introduction to finalize k draft on text (~1 day).
+    1.  Update abstract and introduction to finalize draft on text (~1 day).
     2.  Revise manuscript addressing each and every  concern you were made aware of by any of your readers at this point (~1 week).  This does not necessarily mean making new figures, rather, it might mean clarifying various points of confusion.
     3.  Do another round of feedback, give them another week.
+
 
 
 8.  **Submission**
 
     1. Finalize manuscript (~1 wk), 
-    2. submnit to journal, 
-    3. make code open source, 
-    4. make data anonymized and open access, 
-    5. post to pre-print server.
+    2. Draft a cover letter.  The cover letter has the following form:
+       1. It is on institutional letterhead
+       2. Dear [name of editor that will be reading the letter],
+       3.  Paragraph 1
+           1.  We are delighted to submit to you our manuscript submission titled, “[title],” for publication as a [type of article, assuming there are multiple types in the journal].
+           2.  Establish the *gap* that this paper is filling is clear non-technical terms
+           3.  State how one could address this gap.
+       4.  Pargraph 2: 
+           1.  Summary of main contributions of the manuscript, in non-technical terms. One sentence per contribution.
+           2.  Conclude by stating what we expect the implications will be for their readership, and more broadly
+       5.  Signed by the corresponding author, "on behalf of my co-authors"
+       6.  The language can be more flowery/confident about the expected importance of the contribution than you would write in the article itself.   
+    3. Submit to journal. 
+    4. Make code open source, following the [FIRM](https://bitsandbrains.io/2018/10/21/numerical-packages.html) principles 
+    5. Make data anonymized and open access, following the [FAIR](https://www.go-fair.org/fair-principles/) principles. 
+    6. Post to pre-print server.
 
-9. **Rebuttal**
+9.  **Rebuttal**
 
 Great, you've now submitted the work, waiting some number of weeks/months, and received detailed feedback from the editor and reviewers.  How to respond?
 
