@@ -7,13 +7,16 @@ author: Joshua Vogelstein
 ---
 
 
+
+1. **Learn how to write** by reading [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) and [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241).
 1. **main result** write draft paper title and  draft killer fig that visually makes the main point of your story
-2. **outline** write title, abstract, and outline based on [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619)
+2. **outline** write title, abstract, and outline based on 
 3. **figures** make the remaining figures, check that they follow [figure guidelines](https://bitsandbrains.io/2018/09/08/figures.html)
-4. **draft** flesh out details of paper. 
-5. **references** add them and check that they are right
-6. **wordsmithing** check  [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html), [words guidelines](https://bitsandbrains.io/2018/10/14/words.html), and remove redundant works
-7. **feedback** send to co-authors for review & detailed critical feedback
+5. **Outline** generate a 1 sentence per paragraph outline
+4. **Draft** flesh out details of paper. 
+5. **References** add them and check that they are right
+<!-- 6. **wordsmithing** check  [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html), [words guidelines](https://bitsandbrains.io/2018/10/14/words.html), and remove redundant works -->
+<!-- 7. **feedback** send to co-authors for review & detailed critical feedback -->
 8.  **revision** revise 
 9.  **submission** post to arxiv, submit to journal, tweet to world
 10. **respond** respond to reviewers
@@ -23,7 +26,8 @@ author: Joshua Vogelstein
 
 Upon believing that you have completed work sufficient to write a peer reviewed manuscript, follow the below steps in order. If you are simply writing an abstract (for a conference, for example), just do the section entitled "Outline and Abstract"
 
-Step 0 is to read [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619). I also recommend reading [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241).  This is step 0 because you only need to do this once. Once you've read these things, follow these steps:
+1. **Learn how to write**
+Before you write any paper ever, I recommend reading  [How to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619). I also recommend reading [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241), if care about writing clear compelling stories.  You only need to do this once ever, not once per paper. Once you've read these things, follow these steps:
 
 
 1. **Main Result** 
@@ -85,11 +89,9 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
    6. Read it outloud to catch any typo's/thoughto's.  
    
 
-6.  **References** make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing.
-
-Now, get feedback again, ideally from a professional editor.  At this stage, feedback on logic/etc. is no longer appropriate, so be clear when asking for feedback that you are asking for feedback whether the individual sentences/paragraphs are clear, and random grammar/spelling mistakes.  The opportunity to provide feedback on logic has passed.  
-
-<!-- 5.  **Feedback** Get lots of feedback from >1 person who is in the community of potential readers of your published manuscript.  Ask them to read it as if they are reviewing it for a journal, and to hold nothing back. Ask them to give you comments in one week.  You are not beholden to them, but taking their criticism seriously and making improvements to the manuscript on their basis would be wise.  -->
+6.  **References** 
+    1.  Make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing.
+    2. Get feedback again, ideally from a professional editor.  At this stage, feedback on logic/etc. is no longer appropriate, so be clear when asking for feedback that you are asking for feedback whether the individual sentences/paragraphs are clear, and random grammar/spelling mistakes.  The opportunity to provide feedback on logic has passed.  
 
 7.  **Revision** 
 
