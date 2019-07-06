@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "9 Simple Rules to Write a Paper from Start to Finish"
+title:  "10 Simple Rules to Write a Paper from Start to Finish"
 date:   2019-02-10 14:27:57 -0400
-tags:  [writing]
+tags:  [writing,10]
 author: Joshua Vogelstein
 ---
 
