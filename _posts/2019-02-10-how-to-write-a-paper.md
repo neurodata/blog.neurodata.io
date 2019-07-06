@@ -81,7 +81,7 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
    2. **Paragraphs** check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html).
    3. **Words** check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html).
    4. **shorten** read the paper carefully, and remove any words that are unnecessary. 
-   5. Make sure each figure/table/theorem is enumerated and explicitly refered to in the main text.  
+   5. Make sure each display item (e.g., figure, table, or theorem) is enumerated and explicitly refered to in the main text.  If you are using LaTeX, use `\ref{fig:<informative_name>}` to refer to each display item. Recall that when referring to sections or figures, etc., the name of the section/figure is a proper noun, and is therefore capitalized. 
    6. Read it outloud to catch any typo's/thoughto's.  
    
 
