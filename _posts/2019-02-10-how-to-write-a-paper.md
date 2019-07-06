@@ -108,7 +108,9 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
 8.  **Submission**
 
     1. Finalize manuscript (~1 wk), 
-    2. Draft a cover letter (in google docs if you are writing in google docs, or in the same overleaf repo as the manuscript if you are using overleaf).  The cover letter has the following form:
+    2. If your code is not yet open source, make it so, following the [FIRM](https://bitsandbrains.io/2018/10/21/numerical-packages.html) principles 
+    3. If your data are not yet anonymized and open access, make it so, following the [FAIR](https://www.go-fair.org/fair-principles/) principles. 
+    4. Draft a cover letter (in google docs if you are writing in google docs, or in the same overleaf repo as the manuscript if you are using overleaf).  The cover letter has the following form:
        1. It is on institutional letterhead
        2. Dear [name of editor that will be reading the letter],
        3.  Paragraph 1
@@ -119,10 +121,9 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
            1.  Summary of main contributions of the manuscript, in non-technical terms. One sentence per contribution.
            2.  Conclude by stating what we expect the implications will be for their readership, and more broadly
        5.  Signed by the corresponding author, "on behalf of my co-authors"
-       6.  The language can be more flowery/confident about the expected importance of the contribution than you would write in the article itself.   
-    3. Submit to journal. 
-    4. Make code open source, following the [FIRM](https://bitsandbrains.io/2018/10/21/numerical-packages.html) principles 
-    5. Make data anonymized and open access, following the [FAIR](https://www.go-fair.org/fair-principles/) principles. 
+       6.  Add a ps - that all the code is open source and all the data is open access, in accordance with the above mentioned principles.
+       7.  The language can be more flowery/confident about the expected importance of the contribution than you would write in the article itself.   
+    5. Submit to journal. 
     6. Post to pre-print server.
 
 9.  **Rebuttal**
