@@ -23,7 +23,7 @@ author: Joshua Vogelstein
 
 Upon believing that you have completed work sufficient to write a peer reviewed manuscript, follow the below steps in order. If you are simply writing an abstract (for a conference, for example), just do the section entitled "Outline and Abstract"
 
-Step 0 is to read [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619). I also recommend reading [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241).  Once you've read them, follow these steps:
+Step 0 is to read [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619). I also recommend reading [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241).  This is step 0 because you only need to do this once. Once you've read these things, follow these steps:
 
 
 1. **Main Result** 
@@ -47,14 +47,12 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
    3. Ask for feedback from senior and other co-first authors. Explain that the role of feedback at this stage is for them to tell you whether they think there are any glaring  flaws with the basic setup, eg, do they have a different idea about what is the biggest challenge.  There is no need to knit-pick about grammar at this stage. 
 
 
-1. **Figures** 
+3. **Figures** 
    1. Make a first draft of all the figures and tables with detailed captions (~ 1 week).  Captions should each be about a paragraph long.  At this point, the figures need not be "camera ready", but should have all the main points made.  
    2. Get feedback on figures from co-authors and close colleagues (~1 week).  Show them the figures, do not show them the captions, and ask them to tell you what the main point of each figure is.  If they don't get it right, don't worry about it, take notes on what they thought, and ask them to go to the next figure.  Then, spend another week updating the figures, and repeat. 
 
 
-
-
-2. **Outline** 
+4. **Outline** 
 
    1. Make all the figures and captions "camera ready" (~1 week).  Consult this [figure checklist](https://bitsandbrains.io/2018/09/08/figures.html) to confirm that they are indeed camera ready.
 
@@ -67,39 +65,55 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
 
     2. Outline the methods and results: this is a 1 sentence summary of every point  in [methods_paper](https://github.com/neurodata/checklists/blob/master/methods_paper.md) (~20 min)
 
-   2. Fill in the details of the methods and results (~ 1 week). Allow for at least one paragraph per figure, table, and/or theorem.
+   2. Fill in the details of the methods and results (~ 1 week). Allow for at least one paragraph per figure, table, and/or theorem.  These paragraphs follow the following form: 
+      1. a sentence describing the setting.  
+      2. A few sentences providing additional details.  
+      3. A concluding sentence providing the take home summary.
 
    3. Outline the  discussion (~1 hr), to include (not a summary)
        1. bulleted list of previous related work (~20 min)
        2. bulleted list of potential extensions (~20 min)
    4. Get feedback from your co-authors.  At this stage, the question is whether the logic is sound, meaing, based on the challenge you proposed, the sequence of results provides compelling evidence that you've satisfactorily addressed it. If they disagree, iterate until there is agreement.
 
-2. **Draft** 
+5. **Draft** 
 
-1. Expand the outline into a full draft
+   1. Expand the outline into a full draft. 
+   2. **Paragraphs** check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html).
+   3. **Words** check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html).
+   4. **shorten** read the paper carefully, and remove any words that are unnecessary. 
+   5. Make sure each figure/table/theorem is enumerated and explicitly refered to in the main text.  
+   6. Read it outloud to catch any typo's/thoughto's.  
+   
 
+6.  **References** make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing.
 
-3. **References** make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is.
+Now, get feedback again, ideally from a professional editor.  At this stage, feedback on logic/etc. is no longer appropriate, so be clear when asking for feedback that you are asking for feedback whether the individual sentences/paragraphs are clear, and random grammar/spelling mistakes.  The opportunity to provide feedback on logic has passed.  
 
-4. **wordsmithing**
-   1. **Paragraphs** check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html).
-   2. **Words** check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html).
-   3. **shorten** read the paper carefully, and remove any words that are unnecessary. 
+<!-- 5.  **Feedback** Get lots of feedback from >1 person who is in the community of potential readers of your published manuscript.  Ask them to read it as if they are reviewing it for a journal, and to hold nothing back. Ask them to give you comments in one week.  You are not beholden to them, but taking their criticism seriously and making improvements to the manuscript on their basis would be wise.  -->
 
-5.  **Feedback** Get lots of feedback from >1 person who is in the community of potential readers of your published manuscript.  Ask them to read it as if they are reviewing it for a journal, and to hold nothing back. Ask them to give you comments in one week.  You are not beholden to them, but taking their criticism seriously and making improvements to the manuscript on their basis would be wise. 
+7.  **Revision** 
 
-6.  **Revision** 
-
-    1.  Update abstract and introduction to final pre-feedback draft on text (~1 day).
-    2.  Revise manuscript addressing each and every one of their concerns (~1 week).  This does not necessarily mean making new figures, rather, it might mean clarifying various points of confusion.
+    1.  Update abstract and introduction to finalize k draft on text (~1 day).
+    2.  Revise manuscript addressing each and every  concern you were made aware of by any of your readers at this point (~1 week).  This does not necessarily mean making new figures, rather, it might mean clarifying various points of confusion.
     3.  Do another round of feedback, give them another week.
 
 
-7.  **Submission**
+8.  **Submission**
    
 Finalize manuscript (~1 wk), submnit to journal, make code open source, make data anonymized and open access, post report to arXiv or biorXiv.
+
+9. **Rebuttal**
+
+Great, you've now submitted the work, waiting some number of weeks/months, and received detailed feedback from the editor and reviewers.  How to respond?
+
+1. Make a google doc, copy the entirety of the comments you received into it. Change the font color for all of their comments to red.
+2. After each "complaint", make a line break, and respond directly to it. (Basically) Never disagree with them.  You are almost at the point of having your paper published,  The game now is simply to address the comments (ego) of the reviewers.  Sometimes this will mean making your paper slightly worse to appease them.  I find it is typically worthwhile. In the response, 
+   1. Tell them how great they are for identifying this problem with the manuscript, and express gratitude for them finding it; 
+   2. Tell them how you have altered the manuscrip to address the issue. Yes, this means modifying the manuscript to address each and every one of their complaints, no matter how big/small they are.  This includes certainly citing everything they recommend you cite, and also praising that work in the actual text. 
+   3. For any big changes, such as a modification/addition of a figure, or a new paragraph, directly append the new/revised content into this document.  The goal is to make sure the reviewer does not look back at the original manuscript, lest they might find additional limitations that they want addressed. Quotes from the paper should be in blue, to highlight that they are quotes.  
+4. Send google doc to your co-authors with track changes on.  Often a good idea to also make a back-up copy of the rebuttal prior to sharing with them just in case.  Specifically ask for feedback of the following form: "if you were the referee, and you saw that I responded thusly, would you be satisfied or not?"
 
 
 *************************
 
-If you follow the above plan, you will have a manuscript ready to submit 2 months after you start writing.  
+If you follow the above plan, you will have a manuscript ready to submit 2 months after you start writing.  Note that it includes many stages of feedback, and at each stage, a specific kind of feedback is explicitly requested.  This procedure helps streamline the amount of work you do between iterations, and streamlines the entire process. Good luck!
