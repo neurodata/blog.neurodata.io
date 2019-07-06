@@ -40,6 +40,7 @@ Before you write any paper, I recommend reading  [How to structure a paper](http
 
 2. **Abstract** 
    
+    1. Choose a writing medium.  I recommend google docs unless there are a large number of equations, in which case I recommend overleaf. In either case, you want people to be able to comment easily directly on the draft, in real time, as to avoid the possibility of collisions.  Prior to sending it to anybody, make a local copy, so they can't screw it up (and update your local copy prior to each round of feedback).  
    1. Describe the other results, typically 3-5 additional figures or theorems.  The goal of each of these is to support the main claim, for example, by further refining, adding controls, etc.  Ideally, they are sequenced together in a logical chain, like a proof, each building on the next, to tell the story. (~1 hr)
    2. Write a one paragraph summary (will become your **abstract**;  ~30 min).  This will be about 250 - 300 words, more than 500 words is a page, not an abstract.  To include:
        1. Big opportunity sentence: what is the grandest opportunity that this work is addressing?
@@ -93,7 +94,7 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
    3. Check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html).
    4. Read the paper carefully outloud, and remove any words that are unnecessary. 
    5. Make sure each display item (e.g., figure, table, or theorem) is enumerated and explicitly refered to in the main text.  If you are using LaTeX, use `\ref{fig:<informative_name>}` to refer to each display item. Recall that when referring to sections or figures, etc., the name of the section/figure is a proper noun, and is therefore capitalized. 
-   6.  Make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing.
+   6.  Make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing. If you are using Google docs, I recommend using the [Paperpile "Add-On"](https://paperpile.com/blog/free-google-docs-add-on/). 
    7. Get feedback again, ideally from a professional editor.  At this stage, feedback on logic/etc. is no longer appropriate, so be clear when asking for feedback that you are asking for feedback whether the individual sentences/paragraphs are clear, and random grammar/spelling mistakes.  The opportunity to provide feedback on logic has passed.  
 
 7.  **Revision** 
@@ -107,7 +108,7 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
 8.  **Submission**
 
     1. Finalize manuscript (~1 wk), 
-    2. Draft a cover letter.  The cover letter has the following form:
+    2. Draft a cover letter (in google docs if you are writing in google docs, or in the same overleaf repo as the manuscript if you are using overleaf).  The cover letter has the following form:
        1. It is on institutional letterhead
        2. Dear [name of editor that will be reading the letter],
        3.  Paragraph 1
