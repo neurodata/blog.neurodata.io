@@ -101,8 +101,12 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
 
 
 8.  **Submission**
-   
-Finalize manuscript (~1 wk), submnit to journal, make code open source, make data anonymized and open access, post report to arXiv or biorXiv.
+
+    1. Finalize manuscript (~1 wk), 
+    2. submnit to journal, 
+    3. make code open source, 
+    4. make data anonymized and open access, 
+    5. post to pre-print server.
 
 9. **Rebuttal**
 
@@ -118,4 +122,4 @@ Great, you've now submitted the work, waiting some number of weeks/months, and r
 
 *************************
 
-If you follow the above plan, you will have a manuscript ready to submit 2 months after you start writing.  Note that it includes many stages of feedback, and at each stage, a specific kind of feedback is explicitly requested.  This procedure helps streamline the amount of work you do between iterations, and streamlines the entire process. Good luck!
+If you follow the above plan, you will have a manuscript ready to submit two to three months after you start writing.  Note that it includes many stages of feedback, and at each stage, a specific kind of feedback is explicitly requested.  This procedure helps streamline the amount of work you do between iterations, and streamlines the entire process. Good luck!
