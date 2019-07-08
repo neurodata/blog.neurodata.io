@@ -14,7 +14,7 @@ author: Joshua Vogelstein
 3. **Figures** draft the remaining figures
 4. **Outline** generate a 1 sentence per paragraph outline
 5. **Venue** choose the publication venue
-6. **Draft** flesh out details of paper. 
+6. **Draft** flesh out details of paper
 <!-- 7. **References** add them and check that they are right -->
 <!-- 6. **wordsmithing** check  [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html), [words guidelines](https://bitsandbrains.io/2018/10/14/words.html), and remove redundant works -->
 <!-- 7. **feedback** send to co-authors for review & detailed critical feedback -->

@@ -1,22 +1,24 @@
 ---
 layout: post
-title:  "11 Simple Rules for Releasing Data Science Tools"
+title:  "The FIRM Guiding Principles for scientific software development and stewardship"
 date:   2018-10-21 14:27:57 -0400
 tags:  [10, bits]
 author: Joshua Vogelstein
 ---
 
-These notes were co-written by myself and a number of other people, including [Greg Kiar](http://gkiar.me/), [Eric Bridgeford](http://ericwb.me/), [JB Poline](https://www.mcgill.ca/qls/researchers/jb-poline), and [Tristan Glatard](https://users.encs.concordia.ca/~tglatard/). Inspired by the FAIR Guiding Principles for scientific data management and stewardship (see [here](https://www.nature.com/articles/sdata201618)), we devised the FIRM guidelines for scientific software, specifically numerical packages.  The FIRM guidelines stipulate that anybody in the world should be able to: **F**ind, **I**nstall, **R**un, and **M**odify your code. Below is a working draft of our ideas; as always, your feedback is solicited. 
+These notes were co-written by myself and a number of other people, including [Greg Kiar](http://gkiar.me/), [Eric Bridgeford](http://ericwb.me/), [JB Poline](https://www.mcgill.ca/qls/researchers/jb-poline), and [Tristan Glatard](https://users.encs.concordia.ca/~tglatard/). Inspired by the FAIR Guiding Principles for scientific data management and stewardship (see [here](https://www.nature.com/articles/sdata201618)), we devised the FIRM guidelines for scientific software development and stewardship, specifically numerical packages.  The FIRM guidelines stipulate that code should be 
+**F**indable, **I**nstallable, **R**unnable, and **M**odifiable 
+by anybody in the world. Below is a working draft of our ideas; as always, your feedback is solicited. 
 
 
-### Find
+### Findable
 
 1. To make your code findable, we recommend three steps:
     1. Make the code open source on a searchable code repository (e.g., [github](https://github.com/) or [gitlab](https://about.gitlab.com/)).
     2.  Generate a permanent Digital Object Identifier (DOI) so that you can freely move the code to other web-servies if you so desire without breaking the links (e.g., using [zenodo](https://zenodo.org/)).
     3.  Add a license so that others can freely use your code without worrying about legal ramifications (see [here](https://opensource.org/licenses) for options).
 
-### Install
+### Installable
 
 
 1. Provide installation guidelines, including  *1-line installation* instructions with system requirements (including hardware and OS),  software dependencies, and expected install time.  
@@ -24,7 +26,7 @@ These notes were co-written by myself and a number of other people, including [G
 2. Deposit your code into a standard package manager, such as [CRAN](https://cran.r-project.org/) for R or [PyPi](https://pypi.org/) for Python. You might also provide a container or virtual machine image with your package pre-installed, for example, using [Docker](https://www.docker.com/), [Singularity](https://www.sylabs.io/docs/) or [Gigantum](https://gigantum.com/).
 
 
-### Run
+### Runnable
 
 1. Provide a demo, including requisite data, expected results, and runtime on specified hardware. The demo should be simple, intuitive, and fast to run. We recommend using  [Rmarkdown](https://rmarkdown.rstudio.com/) for R and  a [Jupyter Notebook](http://jupyter.org/) for Python.
 
@@ -34,7 +36,7 @@ These notes were co-written by myself and a number of other people, including [G
 3. Make sure each function includes auto-generated documentation. We recommend  [Roxygen](https://cran.r-project.org/web/packages/roxygen2/vignettes/roxygen2.html) for R and   [Sphinx](http://www.sphinx-doc.org/en/master/) for Python.
 
 
-### Modify
+### Modifiable
 
 1. Include contribution guidelines, including: 
     1. style guidelines ([Google's](https://google.github.io/styleguide/Rguide.xml) or [Hadley's](http://adv-r.had.co.nz/Style.html) for R, or [PEP8](https://www.python.org/dev/peps/pep-0008/) for Python)
