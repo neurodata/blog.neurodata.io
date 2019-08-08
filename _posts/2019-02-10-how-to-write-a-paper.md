@@ -107,7 +107,7 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
 
 8.  **Submission**
 
-    1. Finalize manuscript (~1 wk), 
+    1. Finalize manuscript (~1 wk).  I recommend that you fully *ignore* all guidelines provided by the journal, and you submit that which you believe will be easiest for the editors/reviewers to read and understand.  I have almost always done it this way, and the submission is almost always reviewed anyway.  If it gets good reviews, we can modify it so it fits their rules.  An exception is conferences, where they actually care. 
     2. If your code is not yet open source, make it so, following the [FIRM](https://bitsandbrains.io/2018/10/21/numerical-packages.html) principles 
     3. If your data are not yet anonymized and open access, make it so, following the [FAIR](https://www.go-fair.org/fair-principles/) principles. 
     4. Draft a cover letter (in google docs if you are writing in google docs, or in the same overleaf repo as the manuscript if you are using overleaf).  The cover letter has the following form:
