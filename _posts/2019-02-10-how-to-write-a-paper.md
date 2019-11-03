@@ -8,7 +8,7 @@ author: Joshua Vogelstein
 
 
 
-1. **Learn how to write** by reading [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) and [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241).
+1. **Learn how to write** by reading [how to structure a paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) and [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241) (sorry that I am recommending purchasing a book, though it should be available for free from any academic library, and I recommend all PIs own a copy for themselves and their students, so it does not cost students to read it at a minimum).
 1. **Main result** write draft paper title and  draft killer fig that visually makes the main point of your story
 2. **Abstract** write title and abstract based on OCAR story structure (described in [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241))
 3. **Figures** draft the remaining figures
