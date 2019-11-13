@@ -128,14 +128,16 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
 
 9.  **Rebuttal**
 
-Great, you've now submitted the work, waiting some number of weeks/months, and received detailed feedback from the editor and reviewers.  How to respond?
+Great, you've now submitted the work, waiting some number of weeks/months, and received detailed feedback from the editor and reviewers.  How to respond? Note, no matter what they say with regard to accept, minor revision, major revision, or reject, we essentially respond in the same way. 
 
+1. Respond immediately, unless you have a grant deadline, revising this paper is now your #1 top priority bar none.  All upcoming conference deadlines, and anything else you are working on now take a back seat.  The sooner you get the responses, the sooner they read them, and the less they forget what they read/wrote, and the less likely they are to re-read your whole paper, and give us a whole new set of complaints. 
 1. Make a google doc, copy the entirety of the comments you received into it. Change the font color for all of their comments to red.
-2. After each "complaint", make a line break, and respond directly to it. (Basically) Never disagree with them.  You are almost at the point of having your paper published,  The game now is simply to address the comments (ego) of the reviewers.  Sometimes this will mean making your paper slightly worse to appease them.  I find it is typically worthwhile. In the response, 
-   1. Tell them how great they are for identifying this problem with the manuscript, and express gratitude for them finding it; 
-   2. Tell them how you have altered the manuscrip to address the issue. Yes, this means modifying the manuscript to address each and every one of their complaints, no matter how big/small they are.  This includes certainly citing everything they recommend you cite, and also praising that work in the actual text. 
-   3. For any big changes, such as a modification/addition of a figure, or a new paragraph, directly append the new/revised content into this document.  The goal is to make sure the reviewer does not look back at the original manuscript, lest they might find additional limitations that they want addressed. Quotes from the paper should be in blue, to highlight that they are quotes.  
+2. After each "complaint", make a line break, and respond directly to it. (Basically) Never disagree with them.   The game now is simply to address the comments (ego) of the reviewers.  Any comment they made is useful, at a minimum, to inform us as to places where readers might be confused about why what we did is so awesome.  Sometimes this will mean making your paper slightly worse to appease them.  I find it is typically worthwhile. In the response, 
+   1. Tell them how great they are for identifying this problem with the manuscript, and express gratitude for them finding it, really try to feel grateful, your response will be more productive; 
+   2. Tell them how you have altered the manuscript to address the issue. Yes, this means modifying the manuscript to address each and every one of their complaints, no matter how big/small they are.  This includes certainly citing everything they recommend you cite, and also praising that work in the actual text. 
+   3. For any big changes, such as a modification/addition of a figure, or a new paragraph, directly append the new/revised content into this document.  The goal is to make sure the reviewer does not look back at the original manuscript, lest they might find additional limitations that they want addressed. Quotes from the paper should be in blue, to highlight that they are quotes.  Note: send the google doc proposing changes (but without implementing any yet) to your PI to get the green light on how to response, once you have the green light, proceed apace). 
 4. Send google doc to your co-authors with track changes on.  Often a good idea to also make a back-up copy of the rebuttal prior to sharing with them just in case.  Specifically ask for feedback of the following form: "if you were the referee, and you saw that I responded thusly, would you be satisfied or not?"
+
 
 
 *************************
