@@ -60,7 +60,7 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
 
 4. **Outline** 
 
-   1. Make all the figures and captions "camera ready" (~1 week).  Consult this [figure checklist](https://bitsandbrains.io/2018/09/08/figures.html) to confirm that they are indeed camera ready.
+
 
     1. Write a "long-form" outline of the **intro** (~1 hr).   This is essentially an expansion of the abstrast, and is therefore structured as follows:
        1. a bulleted list of  ~3-5 main factors that create an opportunity for your work, filtering from most general to most specific, and not including anything ancillary (~20 min) 
@@ -90,12 +90,14 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
 6. **Draft** 
 
    1. Expand the outline into a full draft. Do *not* concern yourself at this point with the details of what the publisher wants, we will deal with that later.  The point of this is to simply have a draft *at all*.  
-   2. Check that paragraphs follow [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html).
-   3. Check that words follow [words guidelines](https://bitsandbrains.io/2018/10/14/words.html).
-   4. Read the paper carefully outloud, and remove any words that are unnecessary. 
-   5. Make sure each display item (e.g., figure, table, or theorem) is enumerated and explicitly refered to in the main text.  If you are using LaTeX, use `\ref{fig:<informative_name>}` to refer to each display item. Recall that when referring to sections or figures, etc., the name of the section/figure is a proper noun, and is therefore capitalized. 
-   6.  Make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing. If you are using Google docs, I recommend using the [Paperpile "Add-On"](https://paperpile.com/blog/free-google-docs-add-on/). 
-   7. Get feedback again, ideally from a professional editor.  At this stage, feedback on logic/etc. is no longer appropriate, so be clear when asking for feedback that you are asking for feedback whether the individual sentences/paragraphs are clear, and random grammar/spelling mistakes.  The opportunity to provide feedback on logic has passed.  
+   1. Check that paper follows all relevant checklists, including:
+      1. [figure guidelines](https://bitsandbrains.io/2018/09/08/figures.html)
+      2. [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html).
+      3. [words guidelines](https://bitsandbrains.io/2018/10/14/words.html).
+   2. Read the paper carefully outloud, and remove any words that are unnecessary. 
+   3. Make sure each display item (e.g., figure, table, or theorem) is enumerated and explicitly refered to in the main text.  If you are using LaTeX, use `\ref{fig:<informative_name>}` to refer to each display item. Recall that when referring to sections or figures, etc., the name of the section/figure is a proper noun, and is therefore capitalized. 
+   4.  Make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing. If you are using Google docs, I recommend using the [Paperpile "Add-On"](https://paperpile.com/blog/free-google-docs-add-on/). 
+   5. Get feedback again, ideally from a professional editor.  At this stage, feedback on logic/etc. is no longer appropriate, so be clear when asking for feedback that you are asking for feedback whether the individual sentences/paragraphs are clear, and random grammar/spelling mistakes.  The opportunity to provide feedback on logic has passed.  
 
 7.  **Revision** 
 
