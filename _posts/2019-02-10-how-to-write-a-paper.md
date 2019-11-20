@@ -50,15 +50,16 @@ Before you write any paper, I recommend reading  [How to structure a paper](http
        5. Action sentence: what did you do to address the gap, overcome the challenge, and therefore meet the opportunity? it should provide the *key* intuition/insight, the magic that makes this work, where others failed. This is the place where one can write something like "In this paper, we....", although I would instead simply write "We...." (in this paper should be obvious from context).
        6. Resolution sentence: what changes for the reader now that you have met this challenge? 
 Note that the above structure is called "OCAR" in [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241), for *O*pportunity, *C*hallenge, *A*ction, and *R*esolution (tehcnically they use "Opening" instead of "Opportunity", but I like "Opportunity" more).  Steps 1 and 2 form the opportunity, steps 3 and 4 form the challenge, 5 is action and 6 is resolution.  
-   3. Ask for feedback from senior and other co-first authors. Explain that the role of feedback at this stage is for them to tell you whether they think there are any glaring  flaws with the basic setup, eg, do they have a different idea about what is the biggest challenge.  There is no need to knit-pick about grammar at this stage. 
+   1. Generate a "take home message" for each of the figures you plan to create.  These become the first sentence of the figure caption. 
+   2. Ask for feedback from senior and other co-first authors. Explain that the role of feedback at this stage is for them to tell you whether they think there are any glaring  flaws with the basic setup, eg, do they have a different idea about what is the biggest challenge.  There is no need to knit-pick about grammar at this stage. 
 
 
-3. **Figures** 
+1. **Figures** 
    1. Make a first draft of all the figures and tables with detailed captions (~ 1 week).  Captions should each be about a paragraph long.  At this point, the figures need not be "camera ready", but should have all the main points made.  
    2. Get feedback on figures from co-authors and close colleagues (~1 week).  Show them the figures, do not show them the captions, and ask them to tell you what the main point of each figure is.  If they don't get it right, don't worry about it, take notes on what they thought, and ask them to go to the next figure.  Then, spend another week updating the figures, and repeat. 
 
 
-4. **Outline** 
+2. **Outline** 
 
 
 
@@ -71,35 +72,35 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
 
     2. Outline the methods.  (~20 min)
 
-   2. Outline the results results (~20 min). Allow for at least one paragraph per figure, table, and/or theorem.  These paragraphs follow the following form (no need for them to be proper "paragraphs" at this point): 
+   1. Outline the results results (~20 min). Allow for at least one paragraph per figure, table, and/or theorem.  These paragraphs follow the following form (no need for them to be proper "paragraphs" at this point): 
       1. a sentence describing the setting,
       2. a few sentences providing additional details, and
       3. a concluding sentence providing the take home summary.
 
-   3. Outline the  discussion (~1 hr), to include (not a summary)
+   2. Outline the  discussion (~1 hr), to include (not a summary)
        1. bulleted list of previous related work (~20 min)
        2. bulleted list of potential extensions (~20 min)
-   4. Get feedback from your co-authors.  At this stage, the question is whether the logic is sound, meaing, based on the challenge you proposed, the sequence of results provides compelling evidence that you've satisfactorily addressed it. If they disagree, iterate until there is agreement.
+   3. Get feedback from your co-authors.  At this stage, the question is whether the logic is sound, meaing, based on the challenge you proposed, the sequence of results provides compelling evidence that you've satisfactorily addressed it. If they disagree, iterate until there is agreement.
 
-5. **Venue**
+3. **Venue**
 
-    2. Read the top 3-5 most cited/downloaded articles from each potential venue to submit to, to see what the readership of that community likes.  This will help you both choose the appropriate venue, and write effectively for that venue.  
-    1. Choose the actual journal/conference you will be submitting to.  Until this point, it is irrelevant, since you've only been focusing on the logical structure of your story.  However, before you start writing, you want to make sure you are writing for a particular target audience, and write for them.  This is because different venues have different expectations, which you'd like to meet.
-    1. Note the structure and approximate length of the venue of choice for the top articles published there.  Do *not* worry about length at this time, just note down how many pages and figures they have, if they have an explicit methods section, if they have a preferred outline structure. 
+    1. Read the top 3-5 most cited/downloaded articles from each potential venue to submit to, to see what the readership of that community likes.  This will help you both choose the appropriate venue, and write effectively for that venue.  
+    2. Choose the actual journal/conference you will be submitting to.  Until this point, it is irrelevant, since you've only been focusing on the logical structure of your story.  However, before you start writing, you want to make sure you are writing for a particular target audience, and write for them.  This is because different venues have different expectations, which you'd like to meet.
+    3. Note the structure and approximate length of the venue of choice for the top articles published there.  Do *not* worry about length at this time, just note down how many pages and figures they have, if they have an explicit methods section, if they have a preferred outline structure. 
 
-6. **Draft** 
+4. **Draft** 
 
    1. Expand the outline into a full draft. Do *not* concern yourself at this point with the details of what the publisher wants, we will deal with that later.  The point of this is to simply have a draft *at all*.  
-   1. Check that paper follows all relevant checklists, including:
+   2. Check that paper follows all relevant checklists, including:
       1. [figure guidelines](https://bitsandbrains.io/2018/09/08/figures.html)
       2. [paragraph guidelines](https://bitsandbrains.io/2018/10/14/paragraphs.html).
       3. [words guidelines](https://bitsandbrains.io/2018/10/14/words.html).
-   2. Read the paper carefully outloud, and remove any words that are unnecessary. 
-   3. Make sure each display item (e.g., figure, table, or theorem) is enumerated and explicitly refered to in the main text.  If you are using LaTeX, use `\ref{fig:<informative_name>}` to refer to each display item. Recall that when referring to sections or figures, etc., the name of the section/figure is a proper noun, and is therefore capitalized. 
-   4.  Make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing. If you are using Google docs, I recommend using the [Paperpile "Add-On"](https://paperpile.com/blog/free-google-docs-add-on/). 
-   5. Get feedback again, ideally from a professional editor.  At this stage, feedback on logic/etc. is no longer appropriate, so be clear when asking for feedback that you are asking for feedback whether the individual sentences/paragraphs are clear, and random grammar/spelling mistakes.  The opportunity to provide feedback on logic has passed.  
+   3. Read the paper carefully outloud, and remove any words that are unnecessary. 
+   4. Make sure each display item (e.g., figure, table, or theorem) is enumerated and explicitly refered to in the main text.  If you are using LaTeX, use `\ref{fig:<informative_name>}` to refer to each display item. Recall that when referring to sections or figures, etc., the name of the section/figure is a proper noun, and is therefore capitalized. 
+   5.  Make sure you have sufficiently cited the literature to place your work in context.  For conferences, it is typical to have about 1 page of citations (10-20).  For journal articles, 30-50 is more typical.  Recall, the authors of these papers are likely to be the reviewers and readers for this paper. So, it is important that you highlight all the important work, and say how great it is. In particular, you want your readers to feel good about themselves while they are reading your work, which you can facilitate by citing their work, and explaining why it is so great and important.  This is, of course, actually true, since you are building on this work, and your work would likely not even be possible without the work you are citing. If you are using Google docs, I recommend using the [Paperpile "Add-On"](https://paperpile.com/blog/free-google-docs-add-on/). 
+   6. Get feedback again, ideally from a professional editor.  At this stage, feedback on logic/etc. is no longer appropriate, so be clear when asking for feedback that you are asking for feedback whether the individual sentences/paragraphs are clear, and random grammar/spelling mistakes.  The opportunity to provide feedback on logic has passed.  
 
-7.  **Revision** 
+5.  **Revision** 
 
     1.  Update abstract and introduction to finalize draft on text (~1 day).
     2.  Revise manuscript addressing each and every  concern you were made aware of by any of your readers at this point (~1 week).  This does not necessarily mean making new figures, rather, it might mean clarifying various points of confusion.
@@ -107,7 +108,7 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
 
 
 
-8.  **Submission**
+6.  **Submission**
 
     1. Finalize manuscript (~1 wk).  I recommend that you fully *ignore* all guidelines provided by the journal, and you submit that which you believe will be easiest for the editors/reviewers to read and understand.  I have almost always done it this way, and the submission is almost always reviewed anyway.  If it gets good reviews, we can modify it so it fits their rules.  An exception is conferences, where they actually care. 
     2. If your code is not yet open source, make it so, following the [FIRM](https://bitsandbrains.io/2018/10/21/numerical-packages.html) principles 
@@ -128,7 +129,7 @@ Note that the above structure is called "OCAR" in [Writing Science](https://www.
     5. Submit to journal. 
     6. Post to pre-print server.
 
-9.  **Rebuttal**
+7.  **Rebuttal**
 
 Great, you've now submitted the work, waiting some number of weeks/months, and received detailed feedback from the editor and reviewers.  How to respond? Note, no matter what they say with regard to accept, minor revision, major revision, or reject, we essentially respond in the same way. 
 
