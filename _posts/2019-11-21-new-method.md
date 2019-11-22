@@ -12,7 +12,7 @@ So you want to develop a new method.  I recommend you do the following:
 1. **Write down the problem you are trying to solve**
 Using as formal notation as possible, write down the goal of your method.  Is it a classification problem? Are there any particular constraints?  Which of [these things](https://bitsandbrains.io/2018/09/24/modeling-desiderata.html) do you particularly care about, and how much, and what constraints do you have.  I particularly like the example provided in my [signal subgraph paper](https://dl.acm.org/citation.cfm?id=2498823).
 
-1. **Identify Reference Methods** Identify the current state-of-the-art (SoA) methods for solving this problem.  Make a list of references (up to five articles) describing SoA, and highlight those for which you can identify reference implementations.  For python users, often worth comparing with everything in [sklearn](https://scikit-learn.org/stable/). For R users, search through the [CRAN Task Views](https://cran.r-project.org/web/views/).
+1. **Identify Reference Methods** Identify the current state-of-the-art (SoA) methods for solving this problem.  Make a list of references (up to five articles) describing SoA, and highlight those for which you can identify reference implementations.  For python users, compare to at least  one relevant algorithm in [sklearn](https://scikit-learn.org/stable/), and probably a few others (sklearn only includes algorithms that are at least three years old, so it never has the most up-to-date algorithms). For R users, search through the [CRAN Task Views](https://cran.r-project.org/web/views/).
 
 1. **Identify Benchmark Settings**
 The previous SoA must have run their code on some datasets, including both simulated and real.  Identify those settings.  We will be comparing our algorithm's performance on those settings, so as to not be cherry-picking settings.  Also consider a few (like one or two) very simple real datasets, such as [sklearn's toy datasets](https://scikit-learn.org/stable/datasets/index.html#toy-datasets).
@@ -31,7 +31,10 @@ Describe in detail (as formally as you can) the simplest parametric model that y
 Write code to simulate those scenarios, and look at the results.  Confirm that your simulations are in fact simulating what the equations describing the simulations meant to describe. 
 
 1. **Run Previous SoA**
-Run previous SoA first on the simulations and data from their paper.  Make sure your results at least approximately match their reported results (like, within 1%); ideally your results are identical to the published results, but that is not typical.  This is especially important if you are re-implementing the previous SoA, rather than simply using their results.  Once the results you get are close enough to their published results, run their algorithm on any additional simulation settings.  
+Make a Jupyter notebook running previous SoA on the simulations and data from their paper.  Make sure your results at least approximately match their reported results (like, within 1%); ideally your results are identical to the published results, but that is not typical.  This is especially important if you are re-implementing the previous SoA, rather than simply using their results.  
+- Make a Jupyter notebook on any additional simulation settings.  
+- PR the part of this Jupyter notebook that includes an sklearn algorithm.
+
 
 1. **Pseudocode, Code, and Test**
    1. Write pseudocode (as formally as you can) for your algorithm.  I particularly like the text explanation pseudocode that we wrote for our [mgc paper](https://elifesciences.org/articles/41690).
@@ -42,7 +45,7 @@ Run previous SoA first on the simulations and data from their paper.  Make sure 
        3. A reasonable setting, in which as sample size increases, accuracy should improve.
    If your implementation works as expected in all of these settings, proceed.  Otherwise, iterate.
 
-1. **Evaluate Algorithm on Simulations**
+2. **Evaluate Algorithm on Simulations**
 
 Make a Jupyter notebook evaluating all the  algorithms on the simulations. For each simulation setting:
 
