@@ -49,7 +49,11 @@ Before you write any paper, I recommend reading  [How to structure a paper](http
        4. Gap sentence: what is currently missing? What is the key insight/innovation that enables us to overcome the challenge that others did not yet overcome.  
        5. Action sentence: what did you do to address the gap, overcome the challenge, and therefore meet the opportunity? it should provide the *key* intuition/insight, the magic that makes this work, where others failed. This is the place where one can write something like "In this paper, we....", although I would instead simply write "We...." (in this paper should be obvious from context).
        6. Resolution sentence: what changes for the reader now that you have met this challenge? 
+   
 Note that the above structure is called "OCAR" in [Writing Science](https://www.amazon.com/Writing-Science-Papers-Proposals-Funded/dp/0199760241), for *O*pportunity, *C*hallenge, *A*ction, and *R*esolution (tehcnically they use "Opening" instead of "Opportunity", but I like "Opportunity" more).  Steps 1 and 2 form the opportunity, steps 3 and 4 form the challenge, 5 is action and 6 is resolution.  
+
+When considering which results to mention in the abstract, consider the following: the killer fig gets two sentences.  Any other figure could get up to one sentence, and result that is not a figure does not get mentioned.
+
    1. Generate a "take home message" for each of the figures you plan to create.  These become the first sentence of the figure caption. 
    2. Ask for feedback from senior and other co-first authors. Explain that the role of feedback at this stage is for them to tell you whether they think there are any glaring  flaws with the basic setup, eg, do they have a different idea about what is the biggest challenge.  There is no need to knit-pick about grammar at this stage. 
 
