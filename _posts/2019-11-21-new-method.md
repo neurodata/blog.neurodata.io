@@ -32,13 +32,12 @@ Describe in detail (as formally as you can) the simplest parametric model that y
 Write code to simulate those scenarios, and look at the results.  Confirm that your simulations are in fact simulating what the equations describing the simulations meant to describe. 
 
 1. **Run Previous SoA**
+   1. Make a Jupyter notebook running previous SoA on the simulations and data from their paper.  Make sure your results at least approximately match their reported results (like, within 1%); ideally your results are identical to the published results, but that is not typical.  This is especially important if you are re-implementing the previous SoA, rather than simply using their results.  
+   2. Make a Jupyter notebook on any additional simulation settings.  
+   3. PR the part of this Jupyter notebook that includes an sklearn algorithm.
 
-1. Make a Jupyter notebook running previous SoA on the simulations and data from their paper.  Make sure your results at least approximately match their reported results (like, within 1%); ideally your results are identical to the published results, but that is not typical.  This is especially important if you are re-implementing the previous SoA, rather than simply using their results.  
-2. Make a Jupyter notebook on any additional simulation settings.  
-3. PR the part of this Jupyter notebook that includes an sklearn algorithm.
 
-
-1. **Pseudocode, Code, and Test**
+2. **Pseudocode, Code, and Test**
    1. Write pseudocode (as formally as you can) for your algorithm.  I particularly like the text explanation pseudocode that we wrote for our [mgc paper](https://elifesciences.org/articles/41690).
    2. Write the code for your algorithm.  If you are in Python, to the extent possible, follow the [sklearn API](https://scikit-learn.org/stable/developers/contributing.html#apis-of-scikit-learn-objects).
    3. Test your code on very simple experimental settings.  Settings which should result in an obvious result.  I recommend the following three tests:
@@ -47,7 +46,7 @@ Write code to simulate those scenarios, and look at the results.  Confirm that y
        3. A reasonable setting, in which as sample size increases, accuracy should improve.
    If your implementation works as expected in all of these settings, proceed.  Otherwise, iterate.
 
-2. **Evaluate Algorithm on Simulations**
+3. **Evaluate Algorithm on Simulations**
 Make a Jupyter notebook evaluating all the  algorithms on the simulations. For each simulation setting:
 
    1. Generate 10x random samples of the data
