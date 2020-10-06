@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Writing Effective Pull Requests"
-tags:  []
+tags:  [checklist]
 author: Ben Pedigo
 ---
 
