@@ -32,7 +32,8 @@ Before requesting a review on your pull request, make sure that:
 ### PR itself (on GitHub)
 - PR has a descriptive and succinct title.
 - PR has a _brief_ description of what was changed.
-- PR cites any related issues in the PR description (if applicable) and uses [closing keywords](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) for any issues that should be closed as a result of the PR.
+- PR is addressing a change that has already been brought up in an issue. This will ensure that the change you propose is desired by the maintainers, and may provide a chance to discuss implementation details prior to PRing which will save everyone time. 
+- PR cites any related issues in the PR description and uses [closing keywords](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword) for any issues that should be closed as a result of the PR.
 - PR does not have any extraneous file changes associated with it. One common example of an extraneous change is one that was already made in the target branch, but is showing up as part of this PR under `Files changed`.
 - PR does not have any unresolved merge conflicts.
 - If implementing a major new feature or algorithm, a notebook demonstrating the proof of effectiveness is linked in the PR description. Depending on the feature, this kind of validation may take too long to run as a test or in a tutorial notebook. 
@@ -53,3 +54,7 @@ Before requesting a review on your pull request, make sure that:
 ### Testing
 - New public classes/functions are tested to ensure they achieve the desired output.
 - New public classes/functions are tested to ensure proper errors are thrown when invalid inputs are passed.
+
+## Acknowledgements
+Thanks to Adam Li and Ariel Rokem for feedback on an earlier version of this checklist 
+([see Twitter](https://twitter.com/bpedigod/status/1313827628965597190)).
